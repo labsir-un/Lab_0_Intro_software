@@ -80,7 +80,9 @@ Para la instalación de un sistema Ubuntu nativo, es necesario crear una unidad 
 3. En balenaEtcher, selecciona la opción *"Flash from file"*, que permite cargar un archivo ISO. Selecciona la imagen ISO de Ubuntu.
    
 <div align="center">
-  <img src="https://imgur.com/kZWGzsk.gif" alt="Paso_3" width="600px">
+
+![Paso 3 creación unidad booteable](https://imgur.com/kZWGzsk.gif)
+
 </div>
 
 4. En la opción *"Select target"*, elige la unidad USB que se usará como unidad booteable.
@@ -89,13 +91,17 @@ Para la instalación de un sistema Ubuntu nativo, es necesario crear una unidad 
 >Verifica que sea la unidad correcta, ya que el programa la formateará antes de proceder.
 
 <div align="center">
-  <img src="https://imgur.com/yVmnSaR.gif" alt="Paso_4" width="600px">
+
+![Paso 4 creación unidad booteable](https://imgur.com/yVmnSaR.gif)
+
 </div>
 
 5. Finalmente, haz *click* en *"Flash"* para comenzar la creación de la unidad booteable. El proceso tarda aproximadamente 15 minutos. Cuando aparezca el mensaje *"Flash completed"*, podrás expulsar la USB y estará lista para su uso.
 
 <div align="center">
-  <img src="https://imgur.com/6Oc9L9p.gif" alt="Paso_5"  width="600px">
+
+![Paso 5 creación unidad booteable](https://imgur.com/6Oc9L9p.gif)
+
 </div>
 
 ### 3.2. 💻🔀🖥 Dual Boot de Windows 10 y Ubuntu 20.04
