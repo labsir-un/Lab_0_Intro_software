@@ -27,13 +27,13 @@
 
 <!-- TOC -->
 - [1. 📖 Introducción](#1--introducción)
-- [3. 🧰 Herramientas Necesarias](#3--herramientas-necesarias)
-  - [3.1. 🔭🛠️ Equipos](#31-️-equipos)
-  - [3.2. 🖥️💾 Software](#32-️-software)
-- [2. 🔧➡️🚀 Procedimiento](#2-️-procedimiento)
-  - [🚀💽 Creación de Unidad Booteable](#-creación-de-unidad-booteable)
-  - [💻🔀🖥 Dual Boot de Windows 10 y Ubuntu 20.04](#-dual-boot-de-windows-10-y-ubuntu-2004)
-- [3. 📚🗄️ Referencias](#3-️-referencias)
+- [2. 🧰 Herramientas Necesarias](#2--herramientas-necesarias)
+  - [2.1. 🔭🛠️ Equipos](#21-️-equipos)
+  - [2.2. 🖥️💾 Software](#22-️-software)
+- [3. 🔧➡️🚀 Procedimiento](#3-️-procedimiento)
+  - [3.1. 🚀💽 Creación de Unidad Booteable](#31--creación-de-unidad-booteable)
+  - [3.2. 💻🔀🖥 Dual Boot de Windows 10 y Ubuntu 20.04](#32--dual-boot-de-windows-10-y-ubuntu-2004)
+- [4. 📚🗄️ Referencias](#4-️-referencias)
 </details>
 
 ---
@@ -46,21 +46,21 @@ Ubuntu es una de las distribuciones de Linux más utilizadas en el ámbito del d
 
 Para herramientas como ROS (Robot Operating System) y CoppeliaSim, el uso de Ubuntu nativo es altamente recomendable, ya que ambas aplicaciones están diseñadas específicamente para Linux y tienen un soporte optimizado en esta plataforma. ROS requiere una ejecución en tiempo real para la gestión de nodos y la comunicación entre componentes del sistema robótico, mientras que CoppeliaSim, al ser un software de simulación 3D, se beneficia del acceso directo a los recursos gráficos y computacionales. Al ejecutar estos programas en Ubuntu nativo, se reducen problemas de compatibilidad, latencia y rendimiento, permitiendo un flujo de trabajo más eficiente en el desarrollo y prueba de algoritmos de robótica.
 
-## 3. 🧰 Herramientas Necesarias
+## 2. 🧰 Herramientas Necesarias
 
-### 3.1. 🔭🛠️ Equipos
+### 2.1. 🔭🛠️ Equipos
 
   - Computador.
   - USB (mínimo 4GB). 
 
-### 3.2. 🖥️💾 Software
+### 2.2. 🖥️💾 Software
 
   - ISO Ubuntu 20.04.
   - balenaEtcher 2.1.0.
 
-## 2. 🔧➡️🚀 Procedimiento 
+## 3. 🔧➡️🚀 Procedimiento 
 
-### 🚀💽 Creación de Unidad Booteable
+### 3.1. 🚀💽 Creación de Unidad Booteable
 
 Para la instalación de un sistema Ubuntu nativo, es necesario crear una unidad booteable con la cual se instalará el sistema.
 
@@ -98,7 +98,7 @@ Para la instalación de un sistema Ubuntu nativo, es necesario crear una unidad 
   <img src="https://imgur.com/6Oc9L9p.gif" alt="Paso_5"  width="600px">
 </div>
 
-### 💻🔀🖥 Dual Boot de Windows 10 y Ubuntu 20.04
+### 3.2. 💻🔀🖥 Dual Boot de Windows 10 y Ubuntu 20.04
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=eD_7IscuWhM">
@@ -106,7 +106,7 @@ Para la instalación de un sistema Ubuntu nativo, es necesario crear una unidad 
   </a>
 </div>
 
-## 3. 📚🗄️ Referencias
+## 4. 📚🗄️ Referencias
 
 **[1]** YouTube, "Instalación de Ubuntu 20.04 y Windows 10 en un SSD y HDD," 2021. [Online]. Available: [https://www.youtube.com/watch?v=eD_7IscuWhM](https://www.youtube.com/watch?v=eD_7IscuWhM)
 
