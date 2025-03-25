@@ -1,4 +1,4 @@
-<div id="banner" align="center">
+<div align="center">
 <picture>
     <source srcset="https://imgur.com/5bYAzsb.png" media="(prefers-color-scheme: dark)">
     <source srcset="https://imgur.com/Os03JoE.png" media="(prefers-color-scheme: light)">
@@ -34,10 +34,20 @@
   - [3.2. 🖥️💾 Software](#32-️-software)
 - [4. 🔧➡️🚀 Procedimiento](#4-️-procedimiento)
   - [4.1. 🐧🖥️🦭 Ubuntu](#41-️-ubuntu)
-  - [4.2. 🦾 ROS](#42--ros)
-  - [4.3. 🎮 CoppeliaSim](#43--coppeliasim)
-  - [4.4. 📊 MATLAB](#44--matlab)
-  - [4.5. 🤖 Toolbox de Peter Corke](#45--toolbox-de-peter-corke)
+    - [4.1.1. 🖥️💾🧑🏼‍💻 Formas de usar linux](#411-️-formas-de-usar-linux)
+    - [💾🖥️ Instalación de linux](#️-instalación-de-linux)
+  - [4.2. 📊 MATLAB](#42--matlab)
+    - [💾🖥️ Instalación de matlab](#️-instalación-de-matlab)
+    - [📂 Recursos](#-recursos)
+  - [4.3. 🤖 Toolbox de Peter Corke](#43--toolbox-de-peter-corke)
+    - [💾🖥️ Instalación de toolbox](#️-instalación-de-toolbox)
+    - [📂 Recursos](#-recursos-1)
+  - [4.4. 🎮 CoppeliaSim](#44--coppeliasim)
+    - [💾🖥️ Instalación de CoppeliaSim](#️-instalación-de-coppeliasim)
+    - [📂 Recursos](#-recursos-2)
+  - [4.5. 🦾 ROS](#45--ros)
+    - [💾🖥️ Instalación de ROS](#️-instalación-de-ros)
+    - [📂 Recursos](#-recursos-3)
 - [5. ⚙️🧰 Algunas herramientas utiles](#5-️-algunas-herramientas-utiles)
   - [5.1. ⌨️ Terminal](#51-️-terminal)
   - [5.2. 🗂️ Git](#52-️-git)
@@ -82,13 +92,54 @@ Por último, el aprendizaje basado en software fomenta el pensamiento crítico y
 
 Para trabajar con robots móviles y su simulación, es altamente recomendable utilizar una distribución de Linux, ya que muchas herramientas especializadas, como ROS (Robot Operating System), solo son compatibles con este sistema operativo. Ubuntu 20.04 es una opción ampliamente utilizada en la comunidad de robótica debido a su estabilidad y compatibilidad con ROS Noetic, así como con otras herramientas esenciales para el desarrollo y control de robots. En la sección [5. ⚙️🧰 Algunas herramientas utiles](#5-️-algunas-herramientas-utiles), se presentarán algunas herramientas clave para facilitar el uso de Ubuntu 20.04, permitiendo una gestión más eficiente del sistema y optimizando el flujo de trabajo en la programación y simulación de robots.
 
-### 4.2. 🦾 ROS
+####  4.1.1. 🖥️💾🧑🏼‍💻 Formas de usar linux
 
-### 4.3. 🎮 CoppeliaSim
+Para usar correr un sistemas linux en nuestra computadora tenemos diversas formas de hacerlo que se presentaran a continuación:
 
-### 4.4. 📊 MATLAB
+| Método                              | Ventajas | Desventajas |
+|-------------------------------------|----------|-------------|
+| **Instalación completa**            | Máximo rendimiento, acceso total al hardware, estabilidad. | No puedes usar otro sistema sin reinstalar o usar una VM. |
+| **Arranque dual**                   | Permite elegir entre Ubuntu y otro SO, buen rendimiento. | Requiere reiniciar para cambiar de sistema, posible riesgo en la gestión del arranque. |
+| **Máquina virtual**                 | No afecta el sistema principal, útil para pruebas. | Menor rendimiento, especialmente en gráficos. |
+| **WSL (Windows Subsystem for Linux)** | Integración con Windows, sin necesidad de reiniciar. | No tiene acceso completo al hardware, no es ideal para interfaces gráficas pesadas. |
+| **Aplicaciones dockerizadas**       | Permite ejecutar aplicaciones aisladas sin modificar el sistema. | Se necesita aprender Docker, y algunas aplicaciones pueden requerir configuración avanzada. |
 
-### 4.5. 🤖 Toolbox de Peter Corke
+
+#### 💾🖥️ Instalación de linux
+
+A continuación se mostrara como realizar cada una de las instalaciones para cada metodo de uso:
+
+- [💿🏠 Intalación nativa (Recomendada, casi mandatoria)](./Archivos/Ubuntu/Instalacion_nativa.md)
+
+- [🖥️📦 Máquina virtual](./Archivos/Ubuntu/Maquina_virtual.md)
+
+- [🪟🔧🐧WSL (Windows Subsystem for Linux)](./Archivos/Ubuntu/WSL.md)
+
+- [🚢🐳 Aplicaciones dockerizadas](./Archivos/Ubuntu/Docker.md)
+
+### 4.2. 📊 MATLAB
+
+#### 💾🖥️ Instalación de matlab
+
+#### 📂 Recursos
+
+### 4.3. 🤖 Toolbox de Peter Corke
+
+#### 💾🖥️ Instalación de toolbox
+
+#### 📂 Recursos
+
+### 4.4. 🎮 CoppeliaSim
+
+#### 💾🖥️ Instalación de CoppeliaSim
+
+#### 📂 Recursos
+
+### 4.5. 🦾 ROS
+
+#### 💾🖥️ Instalación de ROS
+
+#### 📂 Recursos
 
 
 ## 5. ⚙️🧰 Algunas herramientas utiles
