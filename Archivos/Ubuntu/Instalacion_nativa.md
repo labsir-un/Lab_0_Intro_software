@@ -80,28 +80,22 @@ Para la instalación de un sistema Ubuntu nativo, es necesario crear una unidad 
 3. En balenaEtcher, selecciona la opción *"Flash from file"*, que permite cargar un archivo ISO. Selecciona la imagen ISO de Ubuntu.
    
 <div align="center">
-
-![Paso 3 creación unidad booteable](https://imgur.com/kZWGzsk.gif)
-
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXppaGcxejNjNWtqdXM2YXV5Y2FtYjJlZHQzbGlremFleWI5dHBkcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XOzLOItwt8JwrhQ1CY/giphy.gif" alt="Paso_3" width="600px">
 </div>
 
-4. En la opción *"Select target"*, elige la unidad USB que se usará como unidad booteable.
+1. En la opción *"Select target"*, elige la unidad USB que se usará como unidad booteable.
    
 >[!CAUTION]
 >Verifica que sea la unidad correcta, ya que el programa la formateará antes de proceder.
 
 <div align="center">
-
-![Paso 4 creación unidad booteable](https://imgur.com/yVmnSaR.gif)
-
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa24wN2x5YzM2OHRscWlpN2gxcmZldWIwYTBqYjJqeTkxZHNmNGczNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iKFuyyZEJeytz8XOlF/giphy.gif" alt="Paso_4" width="600px">
 </div>
 
 5. Finalmente, haz *click* en *"Flash"* para comenzar la creación de la unidad booteable. El proceso tarda aproximadamente 15 minutos. Cuando aparezca el mensaje *"Flash completed"*, podrás expulsar la USB y estará lista para su uso.
 
 <div align="center">
-
-![Paso 5 creación unidad booteable](https://imgur.com/6Oc9L9p.gif)
-
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTd5a3lnazZleXoybmZocHJhZmVkbGV3eXd5MWg1MTU2MnQ3dzlnaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AHTY6FiUDJftNcSO3Q/giphy.gif" alt="Paso_5"  width="600px">
 </div>
 
 ### 3.2. 💻🔀🖥 Dual Boot de Windows 10 y Ubuntu 20.04
