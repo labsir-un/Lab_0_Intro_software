@@ -115,7 +115,7 @@ A continuación se mostrara como realizar cada una de las instalaciones para cad
 
 - [🪟🔧🐧WSL (Windows Subsystem for Linux)](./Archivos/Ubuntu/WSL.md)
 
-- [🚢🐳 Aplicaciones dockerizadas](./Archivos/Ubuntu/Docker.md)
+- 🚢🐳 Aplicaciones dockerizadas: Su configuración es compleja y requiere el uso del WSL por lo cual esta opción no se vera empleada.
 
 ### 4.2. 📊 MATLAB
 

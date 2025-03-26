@@ -55,8 +55,8 @@ Para herramientas como ROS (Robot Operating System) y CoppeliaSim, el uso de Ubu
 
 ### 2.2. 🖥️💾 Software
 
-  - ISO Ubuntu 20.04.
-  - balenaEtcher 2.1.0.
+  - [ISO Ubuntu 20.04](https://releases.ubuntu.com/focal/)
+  - [balenaEtcher 2.1.0](https://etcher.balena.io/#download-etcher)
 
 ## 3. 🔧➡️🚀 Procedimiento 
 
@@ -83,7 +83,7 @@ Para la instalación de un sistema Ubuntu nativo, es necesario crear una unidad 
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXppaGcxejNjNWtqdXM2YXV5Y2FtYjJlZHQzbGlremFleWI5dHBkcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XOzLOItwt8JwrhQ1CY/giphy.gif" alt="Paso_3" width="600px">
 </div>
 
-1. En la opción *"Select target"*, elige la unidad USB que se usará como unidad booteable.
+4. En la opción *"Select target"*, elige la unidad USB que se usará como unidad booteable.
    
 >[!CAUTION]
 >Verifica que sea la unidad correcta, ya que el programa la formateará antes de proceder.
@@ -108,5 +108,5 @@ Para la instalación de un sistema Ubuntu nativo, es necesario crear una unidad 
 
 ## 4. 📚🗄️ Referencias
 
-**[1]** YouTube, "Instalación de Ubuntu 20.04 y Windows 10 en un SSD y HDD," 2021. [Online]. Available: [https://www.youtube.com/watch?v=eD_7IscuWhM](https://www.youtube.com/watch?v=eD_7IscuWhM)
+**[1]** N. Portela, "Instalación de Ubuntu 20.04 y Windows 10 en un SSD y HDD", 2021. [Online]. Available: [https://www.youtube.com/watch?v=eD_7IscuWhM](https://www.youtube.com/watch?v=eD_7IscuWhM)
 
