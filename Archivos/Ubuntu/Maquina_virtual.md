@@ -89,6 +89,15 @@ VMware es una de las principales plataformas de virtualización, reconocida por 
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGQyaTJnbnJhOTBlOGV3MDZwOHl2NmZlaGRuaGtnYWh0djhtbDk5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a7jG0fEPlC5vGCLgcw/giphy.gif" alt="Instalacion_ISO" width="600px">
 </div>
 
+3. Nos solicitará cuáles son las credenciales que deseamos para el sistema de Ubuntu. Luego, solicitará las configuraciones para la máquina virtual, como el nombre y la ubicación de los archivos, el tamaño del disco, entre otras opciones. Dejaremos estas configuraciones por defecto, con una leve modificación en el tamaño del disco.
+
+>[!NOTE]
+>En este ejemplo usamos "Robotica_movil", pero puedes elegir el nombre que desees. Recuerda que el nombre de usuario solo puede estar en minúsculas, usar caracteres alfanuméricos y guiones.
+
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnM5bmpjamFzeDBvcG5iOWQzYnB1a2tqaHpvbXUzMHVycnlwZ3YyZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7lFgp7TiY2tZzuqVFb/giphy.gif" alt="Instalacion_ISO" width="600px">
+</div>
+
 >[!TIP]
 >Si tienes algún problema con la máquina virtual, revisa las configuraciones en detalle.
 
