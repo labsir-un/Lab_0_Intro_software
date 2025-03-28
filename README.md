@@ -58,7 +58,7 @@
 
 ---
 
-<h1> 🖥️💾 Guía 0 Conociendo heramientas de software a utilizar </h1>
+<h1> 🖥️💾 Guía 0 - Conociendo heramientas de software a utilizar </h1>
 
 ## 1. 📖 Introducción
 
@@ -121,6 +121,7 @@ A continuación se mostrara como realizar cada una de las instalaciones para cad
 
 #### 💾🖥️ Instalación de matlab
 
+
 #### 📂 Recursos
 
 ### 4.3. 🤖 Toolbox de Peter Corke
@@ -132,6 +133,10 @@ A continuación se mostrara como realizar cada una de las instalaciones para cad
 ### 4.4. 🎮 CoppeliaSim
 
 #### 💾🖥️ Instalación de CoppeliaSim
+
+Para conocer el proceso de intalación dirigase a:
+
+[🚀🛠️🎮 Guia de instalación CoppeliaSim](./Archivos/CoppeliaSim/Instalacion.md)
 
 #### 📂 Recursos
 
