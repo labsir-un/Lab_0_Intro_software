@@ -72,7 +72,7 @@ WSL permite integrar entornos de desarrollo robótico con software de Windows, l
 Usando la combinación de teclas *Windows + R*, abre el cuadro de diálogo "Ejecutar". Luego, escribe *"winver"* y presiona Enter. Se abrirá una ventana donde podrás ver la versión de compilación de Windows.
 
 <div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2VrODR6ODlwZ2hyZDF4Y2I5YXRmdHU3YTZ3dndzdW1iYjVkM3BwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xye8OwEtLr6sjaOWPr/giphy.gif" alt="Ventana Ejecutar" width="600px">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2VrODR6ODlwZ2hyZDF4Y2I5YXRmdHU3YTZ3dndzdW1iYjVkM3BwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xye8OwEtLr6sjaOWPr/giphy.gif" alt="Ventana Ejecutar" width="300px">
 </div>
 
 > [!IMPORTANT]
