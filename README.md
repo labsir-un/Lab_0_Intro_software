@@ -46,7 +46,7 @@
     - [💾🖥️ Instalación de CoppeliaSim](#️-instalación-de-coppeliasim)
     - [📂 Recursos](#-recursos-2)
   - [4.5. 🦾 ROS](#45--ros)
-    - [💾🖥️ Instalación de ROS](#️-instalación-de-ros)
+    - [💾🖥️ Instalación de](#️-instalación-de)
     - [📂 Recursos](#-recursos-3)
 - [5. ⚙️🧰 Algunas herramientas utiles](#5-️-algunas-herramientas-utiles)
   - [5.1. ⌨️ Terminal](#51-️-terminal)
@@ -121,7 +121,6 @@ A continuación se mostrara como realizar cada una de las instalaciones para cad
 
 #### 💾🖥️ Instalación de matlab
 
-
 #### 📂 Recursos
 
 ### 4.3. 🤖 Toolbox de Peter Corke
@@ -152,7 +151,11 @@ Para conocer el proceso de intalación dirigase a:
 
 ### 4.5. 🦾 ROS
 
-#### 💾🖥️ Instalación de ROS
+#### 💾🖥️ Instalación de 
+
+Para conocer el proceso de intalación dirigase a:
+
+[🚀🛠️🦾 Guia de instalación ROS](./Archivos/ROS/Instalacion.md)
 
 #### 📂 Recursos
 
