@@ -5,7 +5,7 @@
     <img src="https://imgur.com/Os03JoE.png" alt="Escudo UNAL" width="350px">
 </picture>
 
-<h3>Curso de Fundamentos de Robotica Movil</h3>
+<h3>Curso de Fundamentos de Robótica Móvil</h3>
 
 <h1>Herramientas de software</h1>
 
