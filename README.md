@@ -132,13 +132,23 @@ A continuación se mostrara como realizar cada una de las instalaciones para cad
 
 ### 4.4. 🎮 CoppeliaSim
 
+CoppeliaSim es una herramienta fundamental en la simulación de robots móviles, ya que permite diseñar, probar y optimizar algoritmos de control en un entorno virtual antes de su implementación en hardware real. Gracias a su motor de física avanzado y su compatibilidad con múltiples lenguajes de programación, incluidos MATLAB y Python, los desarrolladores pueden modelar diversos escenarios, desde navegación autónoma hasta manipulación robótica compleja. Esto no solo reduce costos y riesgos asociados con el desarrollo físico, sino que también acelera el proceso de investigación y mejora la precisión de los sistemas robóticos en aplicaciones del mundo real.
+
 #### 💾🖥️ Instalación de CoppeliaSim
 
 Para conocer el proceso de intalación dirigase a:
 
 [🚀🛠️🎮 Guia de instalación CoppeliaSim](./Archivos/CoppeliaSim/Instalacion.md)
 
-#### 📂 Recursos
+#### 📂 Recursos  
+
+<details>
+  <summary>🔗🤖📡 Uso de CoppeliaSim con Matlab</summary>
+
+- [📡🔄📊 Guia CoppeliaSim - Conexión Matlab y CoppeliaSim](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_01.md)
+- [Guia 2](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_02.md)
+- [Guia 3](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_03.md)
+</details>
 
 ### 4.5. 🦾 ROS
 
