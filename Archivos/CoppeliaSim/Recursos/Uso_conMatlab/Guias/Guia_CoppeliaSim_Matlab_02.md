@@ -59,7 +59,7 @@
 ## 3. 🔧️➡️🚀 Procedimiento
 
 1. Abra MATLAB.
-2. Descargue el script [pose.m](./../scripts/pose.m) y guardelo en su carpeta de trabajo
+2. Descargue el script [pose.m](./../scripts/pose.m) y guardelo en su carpeta de trabajo.
 
 >[!NOTE]
 >Para consultar la referencia de los comandos de la API de CoppeliaSim con MATLAB consulte [Legacy remote API functions (Matlab)](https://manual.coppeliarobotics.com/en/remoteApiFunctionsMatlab.htm).

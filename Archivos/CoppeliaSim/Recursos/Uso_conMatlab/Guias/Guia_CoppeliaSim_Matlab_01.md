@@ -63,7 +63,7 @@
 
 1. Abra CoppeliaSim.
 
-2. Agrege un ***cuboid*** para esto dar clic derecho en el espacio vacío de la ventana *Scene hierarchy*, seleccionar *Add* > *Primitive Shape* > *Cuboid...*.
+2. Agrege un ***cuboid*** para esto dar clic derecho en el espacio vacío de la ventana *"Scene hierarchy"*, seleccionar *Add* > *Primitive Shape* > *Cuboid...*.
 
 <div align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWtzdzQxenJpZGM2YXNmNHRuMGkwOHo0bmFleGNlcW94dmFrNzY2OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8lJPWmipttJEF8WxgK/giphy.gif" alt="Crear cuboid" width="600px">

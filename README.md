@@ -147,7 +147,7 @@ Para conocer el proceso de intalación dirigase a:
 
 - [📡🔄📊 Guia CoppeliaSim - Conexión Matlab y CoppeliaSim](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_01.md)
 - [🤖🔄📈 Guía CoppeliaSim - Intercambio de información entre Matlab y CoppeliaSim](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_02.md)
-- [Guia 3](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_03.md)
+- [📊➡️📍 Guía CoppeliaSim - Modificación de posición en CoppeliaSim desde MATLAB](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_03.md)
 </details>
 
 ### 4.5. 🦾 ROS
