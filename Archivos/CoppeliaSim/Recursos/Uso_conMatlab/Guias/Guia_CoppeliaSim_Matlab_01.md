@@ -31,8 +31,8 @@
   - [2.1. 🔭🛠️ Equipos](#21-️-equipos)
   - [2.2. 🖥️💾 Software](#22-️-software)
 - [3. 🔧️➡️🚀 Procedimiento](#3-️️-procedimiento)
-  - [🏗️🛠️🤖 Configuración de la escena](#️️-configuración-de-la-escena)
-  - [🛠️❓🔍 Prueba de conexión con Matlab](#️-prueba-de-conexión-con-matlab)
+  - [3.1. 🏗️🛠️🤖 Configuración de la escena](#31-️️-configuración-de-la-escena)
+  - [3.2. 🛠️❓🔍 Prueba de conexión con Matlab](#32-️-prueba-de-conexión-con-matlab)
 </details>
 
 ---
@@ -59,7 +59,7 @@
 
 ## 3. 🔧️➡️🚀 Procedimiento
 
-### 🏗️🛠️🤖 Configuración de la escena
+### 3.1. 🏗️🛠️🤖 Configuración de la escena
 
 1. Abrir CoppeliaSim.
 
@@ -135,7 +135,7 @@ simExtRemoteApiStart(19999)
 > Los demás archivos **siempre** deben copiarse en cada carpeta de trabajo donde se haya guardado la escena *.ttt* para generar la conexión.
 
 
-### 🛠️❓🔍 Prueba de conexión con Matlab
+### 3.2. 🛠️❓🔍 Prueba de conexión con Matlab
 
 1. Abrir MATLAB.
 2. Abrir la carpeta de trabajo y abrir *"simpleTest.m"*.
@@ -172,3 +172,8 @@ simExtRemoteApiStart(19999)
 > Si la conexión es correcta, MATLAB mostrará el número de objetos en la escena y un flujo de valores del tipo `Mouse position x: ###`, que cambiará al mover el mouse dentro de la escena de CoppeliaSim.
 
 6. Detener la simulación en CoppeliaSim con el ícono <img src="https://imgur.com/OerwXkg.png" alt="icono_stop" width="20px"> y cerrar `simpleTest.m`.
+
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmR0eThlOWI1cGpvM3UxNW9qenBpMG5tNWUwdTEweGRmZ3ZoNHpxeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dxJAdkAF1h5PJrIn4X/giphy.gif" alt="Parar_simulación" width="600px">
+</div>
+
