@@ -51,9 +51,15 @@
 - [5. ⚙️🧰 Algunas herramientas utiles](#5-️-algunas-herramientas-utiles)
   - [5.1. ⌨️ Terminal](#51-️-terminal)
   - [5.2. 🗂️🐙  Git y Github](#52-️--git-y-github)
+    - [📹📺 Videos](#-videos)
+    - [🔗📚 Links](#-links)
   - [5.3. 📝 Visual Studio Code](#53--visual-studio-code)
+    - [🔌🧩 Extensiones recomendadas](#-extensiones-recomendadas)
   - [5.4. 📑 Markdown](#54--markdown)
+    - [📹📺 Videos](#-videos-1)
+    - [🔗📚 Links](#-links-1)
   - [5.5. 🏗️ LeoCAD](#55-️-leocad)
+    - [🔗📚 Links](#-links-2)
 </details>
 
 ---
@@ -220,14 +226,80 @@ Git es un sistema de control de versiones que permite a los desarrolladores gest
 
 Por otro lado, GitHub es una plataforma basada en la nube que utiliza Git para alojar repositorios de código y facilitar el trabajo colaborativo. Su importancia radica en que permite compartir proyectos, contribuir a código abierto, gestionar versiones y automatizar procesos mediante integraciones con herramientas de CI/CD. En el desarrollo moderno, Git y GitHub son fundamentales para mantener un flujo de trabajo organizado, seguro y accesible para equipos de cualquier tamaño.
 
-- []()
-- []()
+>[!TIP]
+>Puedes tener tu cuenta de github con el correo de la universidad y te da los beneficios de "GitHub Education". [Saber más](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student)
+
+#### 📹📺 Videos
+
+<div align="center" style="display: flex; gap: 20px; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=HiXLkL42tMU">
+    <img src="https://img.youtube.com/vi/HiXLkL42tMU/0.jpg" alt="Git y Github | Curso Práctico de Git y Github Desde Cero" width="400px">
+  </a>
+  <a href="https://www.youtube.com/watch?v=3GymExBkKjE">
+    <img src="https://img.youtube.com/vi/3GymExBkKjE/0.jpg" alt="Curso de GIT y GITHUB desde CERO para PRINCIPIANTES" width="400px">
+  </a>
+</div>
+
+#### 🔗📚 Links 
+
+- [Curso Profesional de Git y GitHub](https://harvest-storm-649.notion.site/Curso-Profesional-de-Git-y-GitHub-4beee201a92040afbb6d82562b11c12a)
+- [Generacion de gitignore](https://www.toptal.com/developers/gitignore/)
+- [Licencias para el repositorio](https://choosealicense.com/licenses/)
 
 ### 5.3. 📝 Visual Studio Code
 
+Visual Studio Code (VS Code) es un editor de código fuente ligero, potente y altamente personalizable desarrollado por Microsoft. Su popularidad radica en su compatibilidad con múltiples lenguajes de programación, su integración con Git, depuración avanzada y una amplia biblioteca de extensiones que amplían sus funcionalidades. Además, su soporte para IntelliSense, resaltado de sintaxis y terminal integrada lo convierten en una herramienta esencial para desarrolladores de todos los niveles. Gracias a su enfoque multiplataforma y su rendimiento optimizado, VS Code es una de las mejores opciones para escribir, probar y depurar código de manera eficiente.
+
+>[!TIP]
+>Puedes sincronizar con una cuante de github para guardar configuraciones.
+
+#### 🔌🧩 Extensiones recomendadas
+
+Las extensiones facilitan el uso de lenguajes y el desarrollo de código. Aca algunas extenciones que podran ser utiles:
+
+- **📸  CodeSnap:** Permite capturar y compartir fragmentos de código con formato atractivo, ideal para documentar y publicar código en redes.  
+
+- **🔍⚠️ Error Lens:** Resalta errores, advertencias y sugerencias directamente en el código, facilitando la depuración y mejorando la productividad.  
+
+- **🤖 GitHub Copilot:** Asistente de codificación basado en inteligencia artificial que sugiere líneas de código y funciones en tiempo real. (Necesitas una cuenta de github que lo tenga habilitado) 
+
+- **📝 Markdown All in One:** Proporciona herramientas avanzadas para escribir y formatear archivos Markdown, incluyendo atajos y vista previa rápida.  
+
+- **📊 Markdown Preview Mermaid:** Agrega soporte para diagramas en Mermaid dentro de archivos Markdown, permitiendo visualizar gráficos en la vista previa.  
+
+- **🎨 Material Icon Theme:** Personaliza los iconos del explorador de archivos en VS Code con un diseño moderno y atractivo.  
+
+- **⚙️ Matlab:** Brinda compatibilidad con el lenguaje MATLAB, incluyendo resaltado de sintaxis, autocompletado y depuración básica.  
+
+- **🤖🔧 ROS:** Agrega soporte para el desarrollo con Robot Operating System (ROS), facilitando la escritura y gestión de nodos y paquetes.  
+
+
 ### 5.4. 📑 Markdown
+
+Markdown es un lenguaje de marcado ligero que permite dar formato a textos de manera sencilla y rápida, sin necesidad de usar editores complejos. Se utiliza ampliamente en documentación, blogs, README de proyectos en GitHub y plataformas de desarrollo. Su sintaxis intuitiva permite estructurar contenido con encabezados, listas, enlaces, imágenes y tablas de manera eficiente. Además, es compatible con múltiples herramientas y convertidores que lo transforman en HTML u otros formatos, lo que lo convierte en una opción ideal para desarrolladores, escritores y creadores de contenido.
+
+#### 📹📺 Videos
+
+<div align="center" style="display: flex; gap: 20px; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=oxaH9CFpeEE">
+    <img src="https://img.youtube.com/vi/oxaH9CFpeEE/0.jpg" alt="Markdown, Curso Práctico para principiantes y desarrolladores" width="400px">
+  </a>
+  <a href="https://www.youtube.com/watch?v=77Ggk1uzO2A">
+    <img src="https://img.youtube.com/vi/77Ggk1uzO2A/0.jpg" alt="¿Por qué debes aprender MARKDOWN?" width="400px">
+  </a>
+</div>
+
+#### 🔗📚 Links 
+
+- [Sintaxis de escritura y formato básicos en GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Editor online](https://pandao.github.io/editor.md/en.html)
+
 
 ### 5.5. 🏗️ LeoCAD
 
+LeoCAD es un software de modelado 3D diseñado para crear y visualizar construcciones con piezas de LEGO de manera intuitiva. Es una herramienta ideal para entusiastas, diseñadores y educadores que buscan planificar proyectos antes de construirlos físicamente. Cuenta con una extensa biblioteca de piezas basada en LDraw, permitiendo acceso a miles de elementos LEGO. Además, su interfaz amigable y su compatibilidad con otros programas de modelado hacen que sea una opción versátil para diseñar y compartir creaciones de manera digital.
 
+#### 🔗📚 Links 
+
+- [LeoCAD](https://www.leocad.org/)
 
