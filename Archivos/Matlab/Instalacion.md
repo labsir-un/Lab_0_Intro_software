@@ -30,8 +30,8 @@
   - [1.1. 🔭🛠️ Equipos](#11-️-equipos)
   - [1.2. 🖥️💾 Software](#12-️-software)
 - [2. 🔧️➡️🚀 Procedimiento](#2-️️-procedimiento)
-  - [📥🗂️🖥️ Descargar Instalador](#️️-descargar-instalador)
-  - [💻➡️📦 Instalacion de MATLAB](#️-instalacion-de-matlab)
+  - [2.1. 📥🗂️🖥️ Descargar Instalador](#21-️️-descargar-instalador)
+  - [2.2. 💻➡️📦 Instalacion de MATLAB](#22-️-instalacion-de-matlab)
 
 </details>
 
@@ -55,7 +55,7 @@
 ## 2. 🔧️➡️🚀 Procedimiento
 
 
-### 📥🗂️🖥️ Descargar Instalador 
+### 2.1. 📥🗂️🖥️ Descargar Instalador 
 
 1. En el navegador web, dirigirse a la página oficial de [Matlab](https://la.mathworks.com/products/matlab.html).
 
@@ -87,7 +87,7 @@
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG9yaW1hZHl4ZXMyaDRuZml6Mm9jNXM3cXRjNXN4NjJwbXV2ZDRrciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M3ERscbS9TxlaxnADB/giphy.gif" alt="Matlab_descargar_version" width="600px">
 </div>
 
-### 💻➡️📦 Instalacion de MATLAB
+### 2.2. 💻➡️📦 Instalacion de MATLAB
 
 1. Inicie el instalador.
 2. Ingrese sus credenciales de MATLAB.
