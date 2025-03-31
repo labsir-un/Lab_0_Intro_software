@@ -50,7 +50,7 @@
   - Navegador web.
 
 >[!IMPORTANT]
->Es necesario para el desarrollo de esta guia tener una cuanta de MATLAB. Se recomienda tenerla con el correo de la universidad ya que esta da acceso a la licencia campus.
+>Es necesario para el desarrollo de esta guia tener una cuenta de MATLAB. Se recomienda tenerla con el correo de la universidad ya que esta da acceso a la licencia campus.
 
 ## 2. 🔧️➡️🚀 Procedimiento
 

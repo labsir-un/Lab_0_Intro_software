@@ -40,7 +40,7 @@
     - [💾🖥️ Instalación de matlab](#️-instalación-de-matlab)
     - [📂 Recursos](#-recursos)
   - [4.3. 🤖 Toolbox de Peter Corke](#43--toolbox-de-peter-corke)
-    - [💾🖥️ Instalación de toolboxjdalema](#️-instalación-de-toolboxjdalema)
+    - [💾🖥️ Instalación de toolbox](#️-instalación-de-toolbox)
     - [📂 Recursos](#-recursos-1)
   - [4.4. 🎮 CoppeliaSim](#44--coppeliasim)
     - [💾🖥️ Instalación de CoppeliaSim](#️-instalación-de-coppeliasim)
@@ -146,9 +146,30 @@ Para conocer el proceso de intalación dirigase a:
 
 ### 4.3. 🤖 Toolbox de Peter Corke
 
-#### 💾🖥️ Instalación de toolboxjdalema
+El Toolbox de Peter Corke es una de las herramientas más utilizadas en el ámbito de la robótica, ya que proporciona una amplia colección de funciones para la simulación, análisis y control de robots en MATLAB. Este conjunto de herramientas permite a investigadores, estudiantes y profesionales modelar cinemática y dinámica de robots, realizar planificación de trayectorias, diseñar controladores y trabajar con visión por computadora. Su integración con MATLAB facilita la experimentación y validación de algoritmos antes de implementarlos en hardware real, convirtiéndolo en un recurso esencial para el desarrollo de aplicaciones robóticas.
+
+#### 💾🖥️ Instalación de toolbox
+
+Para conocer el proceso de intalación dirigase a:
+
+[🚀🛠️💾🖥️ Guia de instalación Toolbox de Peter Corke](./Archivos/Toolbox_RCV/Instalacion.md)
 
 #### 📂 Recursos
+
+- [📕📝  Manual toolbox V9.10](./Archivos/Toolbox_RCV/robot.pdf)
+- [🔢⚙️ Funciones basicas toolbox](./Archivos/Toolbox_RCV/resumen_funciones_basicas_toolbox.pdf)
+<details>
+  <summary>✍🏼🦾📚 Ejemplos de uso del Toolbox</summary>
+
+- [🏹Vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplo_Clase_0_revisado.m)
+- [➕✖️➖🏹 Operaciones con vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplo_Clase_1_revisado.m)
+- [🔄️🏹 Rotaciones de vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplo_Clase_2_revisado.m)
+- [✍🏼📄 Modelo para hacer informes](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplo_Publish_revisado.mlx)
+- [➕🏹 Ejemplos de operaciones con vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplos_Matlab_2_revisado.m)
+- [🦾🔄️🏹 Ejercicios de rotación de vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplos_Matlab_3.m)
+- [🪢🔄️🏹 Transformacion de vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplos_Matlab_4.m)
+
+</details>
 
 ### 4.4. 🎮 CoppeliaSim
 
