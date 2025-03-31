@@ -35,31 +35,31 @@
 - [4. 🔧➡️🚀 Procedimiento](#4-️-procedimiento)
   - [4.1. 🐧🖥️🦭 Ubuntu](#41-️-ubuntu)
     - [4.1.1. 🖥️💾🧑🏼‍💻 Formas de usar linux](#411-️-formas-de-usar-linux)
-    - [💾🖥️ Instalación de linux](#️-instalación-de-linux)
+    - [4.1.2. 💾🖥️ Instalación de linux](#412-️-instalación-de-linux)
   - [4.2. 📊 MATLAB](#42--matlab)
-    - [💾🖥️ Instalación de matlab](#️-instalación-de-matlab)
-    - [📂 Recursos](#-recursos)
+    - [4.2.1. 💾🖥️ Instalación de matlab](#421-️-instalación-de-matlab)
+    - [4.2.2. 📂 Recursos](#422--recursos)
   - [4.3. 🤖 Toolbox de Peter Corke](#43--toolbox-de-peter-corke)
-    - [💾🖥️ Instalación de toolbox](#️-instalación-de-toolbox)
-    - [📂 Recursos](#-recursos-1)
+    - [4.3.1. 💾🖥️ Instalación de toolbox](#431-️-instalación-de-toolbox)
+    - [4.3.2. 📂 Recursos](#432--recursos)
   - [4.4. 🎮 CoppeliaSim](#44--coppeliasim)
-    - [💾🖥️ Instalación de CoppeliaSim](#️-instalación-de-coppeliasim)
-    - [📂 Recursos](#-recursos-2)
+    - [4.4.1. 💾🖥️ Instalación de CoppeliaSim](#441-️-instalación-de-coppeliasim)
+    - [4.4.2. 📂 Recursos](#442--recursos)
   - [4.5. 🦾 ROS](#45--ros)
-    - [💾🖥️ Instalación de](#️-instalación-de)
-    - [📂 Recursos](#-recursos-3)
+    - [4.5.1. 💾🖥️ Instalación de](#451-️-instalación-de)
+    - [4.5.2. 📂 Recursos](#452--recursos)
 - [5. ⚙️🧰 Algunas herramientas utiles](#5-️-algunas-herramientas-utiles)
   - [5.1. ⌨️ Terminal](#51-️-terminal)
   - [5.2. 🗂️🐙  Git y Github](#52-️--git-y-github)
-    - [📹📺 Videos](#-videos)
-    - [🔗📚 Links](#-links)
+    - [5.2.1. 📹📺 Videos](#521--videos)
+    - [5.2.2. 🔗📚 Links](#522--links)
   - [5.3. 📝 Visual Studio Code](#53--visual-studio-code)
-    - [🔌🧩 Extensiones recomendadas](#-extensiones-recomendadas)
+    - [5.3.1. 🔌🧩 Extensiones recomendadas](#531--extensiones-recomendadas)
   - [5.4. 📑 Markdown](#54--markdown)
-    - [📹📺 Videos](#-videos-1)
-    - [🔗📚 Links](#-links-1)
+    - [5.4.1. 📹📺 Videos](#541--videos)
+    - [5.4.2. 🔗📚 Links](#542--links)
   - [5.5. 🏗️ LeoCAD](#55-️-leocad)
-    - [🔗📚 Links](#-links-2)
+    - [5.5.1. 🔗📚 Links](#551--links)
 </details>
 
 ---
@@ -111,7 +111,7 @@ Para usar correr un sistemas linux en nuestra computadora tenemos diversas forma
 | **Aplicaciones dockerizadas**       | Permite ejecutar aplicaciones aisladas sin modificar el sistema. | Se necesita aprender Docker, y algunas aplicaciones pueden requerir configuración avanzada. |
 
 
-#### 💾🖥️ Instalación de linux
+#### 4.1.2. 💾🖥️ Instalación de linux
 
 A continuación se mostrara como realizar cada una de las instalaciones para cada metodo de uso:
 
@@ -129,13 +129,13 @@ MATLAB es una herramienta esencial en múltiples disciplinas debido a su capacid
 
 En el mundo de la robótica, MATLAB permite diseñar, simular y probar algoritmos de control, percepción y planificación de movimiento antes de implementarlos en hardware real. Su integración con herramientas como Robotics System Toolbox facilita el desarrollo de sistemas autónomos, la simulación de cinemática y dinámica, y la comunicación con plataformas como ROS. Gracias a su capacidad para procesar grandes volúmenes de datos y optimizar modelos complejos, es una herramienta indispensable en la investigación y desarrollo de robots para aplicaciones industriales, médicas y de exploración.
 
-#### 💾🖥️ Instalación de matlab
+#### 4.2.1. 💾🖥️ Instalación de matlab
 
 Para conocer el proceso de intalación dirigase a:
 
 [🚀🛠️📊 Guia de instalación MATLAB](./Archivos/Matlab/Instalacion.md)
 
-#### 📂 Recursos
+#### 4.2.2. 📂 Recursos
 
 <details>
   <summary>🛤️🚗🤖📡 Simulacion de robots moviles</summary>
@@ -154,13 +154,13 @@ Para conocer el proceso de intalación dirigase a:
 
 El Toolbox de Peter Corke es una de las herramientas más utilizadas en el ámbito de la robótica, ya que proporciona una amplia colección de funciones para la simulación, análisis y control de robots en MATLAB. Este conjunto de herramientas permite a investigadores, estudiantes y profesionales modelar cinemática y dinámica de robots, realizar planificación de trayectorias, diseñar controladores y trabajar con visión por computadora. Su integración con MATLAB facilita la experimentación y validación de algoritmos antes de implementarlos en hardware real, convirtiéndolo en un recurso esencial para el desarrollo de aplicaciones robóticas.
 
-#### 💾🖥️ Instalación de toolbox
+#### 4.3.1. 💾🖥️ Instalación de toolbox
 
 Para conocer el proceso de intalación dirigase a:
 
 [🚀🛠️💾🖥️ Guia de instalación Toolbox de Peter Corke](./Archivos/Toolbox_RCV/Instalacion.md)
 
-#### 📂 Recursos
+#### 4.3.2. 📂 Recursos
 
 - [📕📝  Manual toolbox V9.10](./Archivos/Toolbox_RCV/robot.pdf)
 - [🔢⚙️ Funciones basicas toolbox](./Archivos/Toolbox_RCV/resumen_funciones_basicas_toolbox.pdf)
@@ -181,13 +181,13 @@ Para conocer el proceso de intalación dirigase a:
 
 CoppeliaSim es una herramienta fundamental en la simulación de robots móviles, ya que permite diseñar, probar y optimizar algoritmos de control en un entorno virtual antes de su implementación en hardware real. Gracias a su motor de física avanzado y su compatibilidad con múltiples lenguajes de programación, incluidos MATLAB y Python, los desarrolladores pueden modelar diversos escenarios, desde navegación autónoma hasta manipulación robótica compleja. Esto no solo reduce costos y riesgos asociados con el desarrollo físico, sino que también acelera el proceso de investigación y mejora la precisión de los sistemas robóticos en aplicaciones del mundo real.
 
-#### 💾🖥️ Instalación de CoppeliaSim
+#### 4.4.1. 💾🖥️ Instalación de CoppeliaSim
 
 Para conocer el proceso de intalación dirigase a:
 
 [🚀🛠️🎮 Guia de instalación CoppeliaSim](./Archivos/CoppeliaSim/Instalacion.md)
 
-#### 📂 Recursos  
+#### 4.4.2. 📂 Recursos  
 
 <details>
   <summary>🔗🤖📡 Uso de CoppeliaSim con Matlab</summary>
@@ -201,13 +201,13 @@ Para conocer el proceso de intalación dirigase a:
 
 El Robot Operating System (ROS) ha revolucionado el mundo de la robótica al proporcionar una infraestructura de software flexible, modular y escalable para el desarrollo de sistemas robóticos. Su enfoque basado en nodos y comunicación distribuida permite la integración eficiente de sensores, actuadores y algoritmos avanzados, facilitando la creación de robots autónomos capaces de percibir y actuar en entornos complejos. Además, su compatibilidad con múltiples lenguajes de programación, su integración con simuladores como Gazebo y su vasta comunidad de desarrolladores han impulsado la innovación en áreas como la robótica industrial, médica, espacial y de servicio, convirtiéndolo en un estándar esencial en la investigación y desarrollo robótico.
 
-#### 💾🖥️ Instalación de 
+#### 4.5.1. 💾🖥️ Instalación de 
 
 Para conocer el proceso de intalación dirigase a:
 
 [🚀🛠️🦾 Guia de instalación ROS](./Archivos/ROS/Instalacion.md)
 
-#### 📂 Recursos
+#### 4.5.2. 📂 Recursos
 
 
 ## 5. ⚙️🧰 Algunas herramientas utiles
@@ -229,7 +229,7 @@ Por otro lado, GitHub es una plataforma basada en la nube que utiliza Git para a
 >[!TIP]
 >Puedes tener tu cuenta de github con el correo de la universidad y te da los beneficios de "GitHub Education". [Saber más](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student)
 
-#### 📹📺 Videos
+#### 5.2.1. 📹📺 Videos
 
 <div align="center" style="display: flex; gap: 20px; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=HiXLkL42tMU">
@@ -240,7 +240,7 @@ Por otro lado, GitHub es una plataforma basada en la nube que utiliza Git para a
   </a>
 </div>
 
-#### 🔗📚 Links 
+#### 5.2.2. 🔗📚 Links 
 
 - [Curso Profesional de Git y GitHub](https://harvest-storm-649.notion.site/Curso-Profesional-de-Git-y-GitHub-4beee201a92040afbb6d82562b11c12a)
 - [Generacion de gitignore](https://www.toptal.com/developers/gitignore/)
@@ -253,7 +253,7 @@ Visual Studio Code (VS Code) es un editor de código fuente ligero, potente y al
 >[!TIP]
 >Puedes sincronizar con una cuante de github para guardar configuraciones.
 
-#### 🔌🧩 Extensiones recomendadas
+#### 5.3.1. 🔌🧩 Extensiones recomendadas
 
 Las extensiones facilitan el uso de lenguajes y el desarrollo de código. Aca algunas extenciones que podran ser utiles:
 
@@ -278,7 +278,7 @@ Las extensiones facilitan el uso de lenguajes y el desarrollo de código. Aca al
 
 Markdown es un lenguaje de marcado ligero que permite dar formato a textos de manera sencilla y rápida, sin necesidad de usar editores complejos. Se utiliza ampliamente en documentación, blogs, README de proyectos en GitHub y plataformas de desarrollo. Su sintaxis intuitiva permite estructurar contenido con encabezados, listas, enlaces, imágenes y tablas de manera eficiente. Además, es compatible con múltiples herramientas y convertidores que lo transforman en HTML u otros formatos, lo que lo convierte en una opción ideal para desarrolladores, escritores y creadores de contenido.
 
-#### 📹📺 Videos
+#### 5.4.1. 📹📺 Videos
 
 <div align="center" style="display: flex; gap: 20px; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=oxaH9CFpeEE">
@@ -289,7 +289,7 @@ Markdown es un lenguaje de marcado ligero que permite dar formato a textos de ma
   </a>
 </div>
 
-#### 🔗📚 Links 
+#### 5.4.2. 🔗📚 Links 
 
 - [Sintaxis de escritura y formato básicos en GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Editor online](https://pandao.github.io/editor.md/en.html)
@@ -299,7 +299,7 @@ Markdown es un lenguaje de marcado ligero que permite dar formato a textos de ma
 
 LeoCAD es un software de modelado 3D diseñado para crear y visualizar construcciones con piezas de LEGO de manera intuitiva. Es una herramienta ideal para entusiastas, diseñadores y educadores que buscan planificar proyectos antes de construirlos físicamente. Cuenta con una extensa biblioteca de piezas basada en LDraw, permitiendo acceso a miles de elementos LEGO. Además, su interfaz amigable y su compatibilidad con otros programas de modelado hacen que sea una opción versátil para diseñar y compartir creaciones de manera digital.
 
-#### 🔗📚 Links 
+#### 5.5.1. 🔗📚 Links 
 
 - [LeoCAD](https://www.leocad.org/)
 
