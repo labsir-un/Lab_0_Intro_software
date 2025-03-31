@@ -51,8 +51,9 @@
 - [5. ⚙️🧰 Algunas herramientas utiles](#5-️-algunas-herramientas-utiles)
   - [5.1. ⌨️ Terminal](#51-️-terminal)
   - [5.2. 🗂️🐙  Git y Github](#52-️--git-y-github)
-    - [5.2.1. 📹📺 Videos](#521--videos)
-    - [5.2.2. 🔗📚 Links](#522--links)
+    - [5.2.1. 📌 Convenciones comunes para mensajes de commit en GitHub](#521--convenciones-comunes-para-mensajes-de-commit-en-github)
+    - [5.2.2. 📹📺 Videos](#522--videos)
+    - [5.2.3. 🔗📚 Links](#523--links)
   - [5.3. 📝 Visual Studio Code](#53--visual-studio-code)
     - [5.3.1. 🔌🧩 Extensiones recomendadas](#531--extensiones-recomendadas)
   - [5.4. 📑 Markdown](#54--markdown)
@@ -229,7 +230,24 @@ Por otro lado, GitHub es una plataforma basada en la nube que utiliza Git para a
 >[!TIP]
 >Puedes tener tu cuenta de github con el correo de la universidad y te da los beneficios de "GitHub Education". [Saber más](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student)
 
-#### 5.2.1. 📹📺 Videos
+#### 5.2.1. 📌 Convenciones comunes para mensajes de commit en GitHub  
+
+| **Sigla**   | **Significado**                                     | **Descripción** |
+|------------|-------------------------------------------------|----------------|
+| `feat`     | Feature (Nueva funcionalidad)                   | Se usa cuando se agrega una nueva función o característica al proyecto. |
+| `fix`      | Fix (Corrección de errores)                     | Indica que se ha corregido un error en el código. |
+| `docs`     | Documentation (Documentación)                   | Modificaciones en archivos de documentación (README, comentarios, etc.). |
+| `style`    | Code Style (Estilo de código)                   | Cambios en formato, espacios o estilo sin afectar la funcionalidad. |
+| `refactor` | Refactoring (Reestructuración)                  | Mejora en la estructura del código sin cambiar su comportamiento. |
+| `perf`     | Performance (Optimización de rendimiento)       | Cambios que mejoran la velocidad o eficiencia del código. |
+| `test`     | Testing (Pruebas)                               | Adición o modificación de pruebas automatizadas. |
+| `chore`    | Chores (Tareas de mantenimiento)                | Actualizaciones menores, como cambios en dependencias o scripts. |
+| `ci`       | Continuous Integration (Integración continua)   | Cambios en la configuración de CI/CD (GitHub Actions, Travis, etc.). |
+| `build`    | Build (Compilación)                             | Cambios que afectan el proceso de construcción o dependencias. |
+| `revert`   | Revert (Revertir cambios)                       | Deshacer un commit anterior. |
+
+
+#### 5.2.2. 📹📺 Videos
 
 <div align="center" style="display: flex; gap: 20px; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=HiXLkL42tMU">
@@ -240,7 +258,7 @@ Por otro lado, GitHub es una plataforma basada en la nube que utiliza Git para a
   </a>
 </div>
 
-#### 5.2.2. 🔗📚 Links 
+#### 5.2.3. 🔗📚 Links 
 
 - [Curso Profesional de Git y GitHub](https://harvest-storm-649.notion.site/Curso-Profesional-de-Git-y-GitHub-4beee201a92040afbb6d82562b11c12a)
 - [Generacion de gitignore](https://www.toptal.com/developers/gitignore/)
