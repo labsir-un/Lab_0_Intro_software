@@ -50,7 +50,7 @@
     - [📂 Recursos](#-recursos-3)
 - [5. ⚙️🧰 Algunas herramientas utiles](#5-️-algunas-herramientas-utiles)
   - [5.1. ⌨️ Terminal](#51-️-terminal)
-  - [5.2. 🗂️ Git](#52-️-git)
+  - [5.2. 🗂️🐙  Git y Github](#52-️--git-y-github)
   - [5.3. 📝 Visual Studio Code](#53--visual-studio-code)
   - [5.4. 📑 Markdown](#54--markdown)
   - [5.5. 🏗️ LeoCAD](#55-️-leocad)
@@ -214,7 +214,14 @@ Por ello, al comenzar a utilizar Ubuntu, es fundamental aprender a manejar la te
 
 [📝💻El uso de la terminal](./Archivos/Herramientas/Terminal/Recomendaciones.md)
 
-### 5.2. 🗂️ Git
+### 5.2. 🗂️🐙  Git y Github
+
+Git es un sistema de control de versiones que permite a los desarrolladores gestionar y rastrear cambios en su código de manera eficiente. Facilita la colaboración en equipo al permitir trabajar en diferentes ramas, fusionar cambios y revertir versiones anteriores si es necesario.
+
+Por otro lado, GitHub es una plataforma basada en la nube que utiliza Git para alojar repositorios de código y facilitar el trabajo colaborativo. Su importancia radica en que permite compartir proyectos, contribuir a código abierto, gestionar versiones y automatizar procesos mediante integraciones con herramientas de CI/CD. En el desarrollo moderno, Git y GitHub son fundamentales para mantener un flujo de trabajo organizado, seguro y accesible para equipos de cualquier tamaño.
+
+- []()
+- []()
 
 ### 5.3. 📝 Visual Studio Code
 
