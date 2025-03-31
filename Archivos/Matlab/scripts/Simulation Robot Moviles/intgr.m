@@ -1,15 +1,15 @@
-%metodo de integración para el ejemplo "ejem2"
+%metodo de integraciÃ³n para el ejemplo "ejem2"
 function y=intgr(y,h,x,fp,met)
 switch met
-    case 1 %método Euler de orden cero
+    case 1 %mÃ©todo Euler de orden cero
         fder=fp(x);
         y=y+fder*h;
-    case 2 % método del trapecio
+    case 2 % mÃ©todo del trapecio
         fder=(fp(x)+fp(x+h))/2;
         y=y+fder*h;
-    case 3 % método Runge-Kutta
+    case 3 % mÃ©todo Runge-Kutta
         disp('Rung-Kutta no programado');
     otherwise
-        disp('Método desconocido');
+        disp('MÃ©todo desconocido');
 end
     

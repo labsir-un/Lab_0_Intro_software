@@ -1,9 +1,9 @@
-% DIBROBR funci髇 que dibuja un robot circular en 2D, con radio r , dadas las coordenadas del centro y su orientaci髇.
-% Ricardo Ram韗ez. Fundamentos de Rob髏ica M髒il
+% DIBROBR funci贸n que dibuja un robot circular en 2D, con radio r , dadas las coordenadas del centro y su orientaci贸n.
+% Ricardo Ram铆rez. Fundamentos de Rob贸tica M贸vil
 %Universidad Nacional de Colombia
 % xc, yc coordenadas del centro
-%theta orientaci髇 del veh韈ulo
-%r radio del veh韈ulo
+%theta orientaci贸n del veh铆culo
+%r radio del veh铆culo
 function []=dibrob(xc,yc,theta,r)
 tc=0:pi/20:2*pi;
 x=[xc xc+r*cos(tc+theta)];

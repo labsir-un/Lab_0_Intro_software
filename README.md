@@ -40,7 +40,7 @@
     - [💾🖥️ Instalación de matlab](#️-instalación-de-matlab)
     - [📂 Recursos](#-recursos)
   - [4.3. 🤖 Toolbox de Peter Corke](#43--toolbox-de-peter-corke)
-    - [💾🖥️ Instalación de toolbox](#️-instalación-de-toolbox)
+    - [💾🖥️ Instalación de toolboxjdalema](#️-instalación-de-toolboxjdalema)
     - [📂 Recursos](#-recursos-1)
   - [4.4. 🎮 CoppeliaSim](#44--coppeliasim)
     - [💾🖥️ Instalación de CoppeliaSim](#️-instalación-de-coppeliasim)
@@ -119,13 +119,34 @@ A continuación se mostrara como realizar cada una de las instalaciones para cad
 
 ### 4.2. 📊 MATLAB
 
+MATLAB es una herramienta esencial en múltiples disciplinas debido a su capacidad para realizar cálculos numéricos, análisis de datos, modelado y simulación de sistemas complejos. En ingeniería y ciencia, su versatilidad permite desarrollar algoritmos avanzados, procesar señales e imágenes, diseñar sistemas de control y optimizar modelos matemáticos. Su amplia gama de bibliotecas y funciones especializadas, junto con su compatibilidad con otros lenguajes y hardware, lo convierten en una plataforma poderosa para la investigación y el desarrollo. Además, su interfaz intuitiva y su capacidad para visualizar datos facilitan la interpretación de resultados, haciendo de MATLAB una herramienta clave en la resolución de problemas científicos y tecnológicos.
+
+En el mundo de la robótica, MATLAB permite diseñar, simular y probar algoritmos de control, percepción y planificación de movimiento antes de implementarlos en hardware real. Su integración con herramientas como Robotics System Toolbox facilita el desarrollo de sistemas autónomos, la simulación de cinemática y dinámica, y la comunicación con plataformas como ROS. Gracias a su capacidad para procesar grandes volúmenes de datos y optimizar modelos complejos, es una herramienta indispensable en la investigación y desarrollo de robots para aplicaciones industriales, médicas y de exploración.
+
 #### 💾🖥️ Instalación de matlab
+
+Para conocer el proceso de intalación dirigase a:
+
+[🚀🛠️📊 Guia de instalación MATLAB](./Archivos/Matlab/Instalacion.md)
 
 #### 📂 Recursos
 
+<details>
+  <summary>🛤️🚗🤖📡 Simulacion de robots moviles</summary>
+
+- [✍🏼🤖 Dibujar robot circular 2D](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibrob.m)
+- [✍🏼🤖🔴 Dibujar robot circular 2D dado un radio](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibrobr.m) 
+- [✍🏼🚗📍🧭Dibujar vehículos en posiciones y orientaciones](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibveh1.m)
+- [✍🏼🚗🚙📍🧭 Dibujar vehículos con diferentes radios en posiciones y orientaciones dada](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibveh2.m)
+- [∫📈🧮 Metodos de integración](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/intgr.m)
+- [🏎️💨 Movimiento cinemático de un móvil en un plano](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/kinetbas.m)
+- [🏎️💨📈 Movimiento cinemático de un móvil perfiles de velocidad](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/kinetbas2.m)
+- [📍➡️📍 Simulacion de movimiento](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/sim1.m)
+</details>
+
 ### 4.3. 🤖 Toolbox de Peter Corke
 
-#### 💾🖥️ Instalación de toolbox
+#### 💾🖥️ Instalación de toolboxjdalema
 
 #### 📂 Recursos
 
@@ -165,6 +186,12 @@ Para conocer el proceso de intalación dirigase a:
 ## 5. ⚙️🧰 Algunas herramientas utiles
 
 ### 5.1. ⌨️ Terminal
+
+La terminal es una herramienta esencial, ya que permite interactuar con el sistema operativo de manera eficiente y precisa mediante comandos. A través de ella, los usuarios pueden gestionar archivos, instalar software, configurar el sistema y ejecutar procesos sin necesidad de una interfaz gráfica.
+
+Por ello, al comenzar a utilizar Ubuntu, es fundamental aprender a manejar la terminal, ya que facilita el uso y la administración del sistema operativo. A continuación, te presentamos algunas recomendaciones para aprovechar al máximo sus funciones.
+
+[📝💻El uso de la terminal](./Archivos/Herramientas/Terminal/Recomendaciones.md)
 
 ### 5.2. 🗂️ Git
 

@@ -1,14 +1,14 @@
-% KINETBAS progrmas con ejercicios para mostrar la simulaci髇 de
-% movimiento cinem醫ico de un m髒il en un plano con aceleraci髇 ACC y
+% KINETBAS progrmas con ejercicios para mostrar la simulaci贸n de
+% movimiento cinem谩tico de un m贸vil en un plano con aceleraci贸n ACC y
 % velocidad VM.
-% DIBVEH1 ejemplo para dibujar veh韈ulos en posiciones y orientaciones
+% DIBVEH1 ejemplo para dibujar veh铆culos en posiciones y orientaciones
 % dadas.
-% Ricardo Ram韗ez. Fundamentos de Rob髏ica M髒il
+% Ricardo Ram铆rez. Fundamentos de Rob贸tica M贸vil
 % Universidad Nacional de Colombia. 2018 
 clear
 figure(1)
 clf
-%% ejemplo 1 orientaci髇 y velocidad lineal constante
+%% ejemplo 1 orientacion y velocidad lineal constante
 th=0;
 vm=5;
 p=[0;0];
@@ -23,7 +23,7 @@ for i=1:200
     pause(.02)
     p=intgr([p(1);p(2)],h,0,fp,1);
 end
-%% ejemplo 2 orientaci髇 diferente de cero y velocidad lineal constante
+%% ejemplo 2 orientaci贸n diferente de cero y velocidad lineal constante
 th=pi/6;
 vm=5;
 p=[0;0];
@@ -39,7 +39,7 @@ for i=1:200
     p=intgr([p(1);p(2)],h,0,fp,1);
 end
 
-%% ejemplo 3 orientaci髇 cambia durante el movimiento y velocidad lineal constante
+%% ejemplo 3 orientaci贸n cambia durante el movimiento y velocidad lineal constante
 vm=5;
 p=[0;0];
 h=.05;

@@ -104,6 +104,16 @@ rosdep update
 rosversion -d
 ```
 
+>[!NOTE]
+>Una vez que instalas ROS, notarás que catkin funciona como un compilador de paquetes. El comando catkin_make compila todo el espacio de trabajo, lo cual no supone un problema si solo tienes unos pocos paquetes ligeros. Sin embargo, si tu espacio de trabajo contiene muchos paquetes, es recomendable instalar catkin_build, ya que permite compilarlos de forma independiente.
+>```sh
+>sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" > /etc/apt/sources.list.d/ros-latest.list'
+>wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+>sudo apt-get update
+>sudo apt-get install python3-catkin-tools
+>```
+
+
 ## 4. 📚🗄️ Referencias
 
 **[1]** P. Cárdenas, "Intro_Ros", 2023. [Online]. Available: [https://github.com/PedroFCardenas/Intro_Ros](https://github.com/PedroFCardenas/Intro_Ros)
