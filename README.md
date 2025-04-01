@@ -202,7 +202,7 @@ Para conocer el proceso de intalación dirigase a:
 
 El Robot Operating System (ROS) ha revolucionado el mundo de la robótica al proporcionar una infraestructura de software flexible, modular y escalable para el desarrollo de sistemas robóticos. Su enfoque basado en nodos y comunicación distribuida permite la integración eficiente de sensores, actuadores y algoritmos avanzados, facilitando la creación de robots autónomos capaces de percibir y actuar en entornos complejos. Además, su compatibilidad con múltiples lenguajes de programación, su integración con simuladores como Gazebo y su vasta comunidad de desarrolladores han impulsado la innovación en áreas como la robótica industrial, médica, espacial y de servicio, convirtiéndolo en un estándar esencial en la investigación y desarrollo robótico.
 
-#### 4.5.1. 💾🖥️ Instalación de 
+#### 4.5.1. 💾🖥️ Instalación de ROS
 
 Para conocer el proceso de intalación dirigase a:
 
