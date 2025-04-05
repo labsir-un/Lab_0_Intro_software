@@ -291,6 +291,7 @@ Las extensiones facilitan el uso de lenguajes y el desarrollo de código. Aca al
 
 - **🤖🔧 ROS:** Agrega soporte para el desarrollo con Robot Operating System (ROS), facilitando la escritura y gestión de nodos y paquetes.  
 
+- **🔍📖 vscode-pdf:** Permite visualizar, buscar y navegar archivos PDF directamente en el editor.
 
 ### 5.4. 📑 Markdown
 
