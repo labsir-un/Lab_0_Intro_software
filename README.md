@@ -51,14 +51,11 @@
 - [5. ⚙️🧰 Algunas herramientas utiles](#5-️-algunas-herramientas-utiles)
   - [5.1. ⌨️ Terminal](#51-️-terminal)
   - [5.2. 🗂️🐙  Git y Github](#52-️--git-y-github)
-    - [5.2.1. 📌 Convenciones comunes para mensajes de commit en GitHub](#521--convenciones-comunes-para-mensajes-de-commit-en-github)
-    - [5.2.2. 📹📺 Videos](#522--videos)
-    - [5.2.3. 🔗📚 Links](#523--links)
+    - [5.2.1. 📂 Recursos](#521--recursos)
   - [5.3. 📝 Visual Studio Code](#53--visual-studio-code)
     - [5.3.1. 🔌🧩 Extensiones recomendadas](#531--extensiones-recomendadas)
   - [5.4. 📑 Markdown](#54--markdown)
-    - [5.4.1. 📹📺 Videos](#541--videos)
-    - [5.4.2. 🔗📚 Links](#542--links)
+    - [5.4.1. 📂 Recursos](#541--recursos)
   - [5.5. 🏗️ LeoCAD](#55-️-leocad)
     - [5.5.1. 🔗📚 Links](#551--links)
 </details>
@@ -217,9 +214,9 @@ Para conocer el proceso de intalación dirigase a:
 
 La terminal es una herramienta esencial, ya que permite interactuar con el sistema operativo de manera eficiente y precisa mediante comandos. A través de ella, los usuarios pueden gestionar archivos, instalar software, configurar el sistema y ejecutar procesos sin necesidad de una interfaz gráfica.
 
-Por ello, al comenzar a utilizar Ubuntu, es fundamental aprender a manejar la terminal, ya que facilita el uso y la administración del sistema operativo. A continuación, te presentamos algunas recomendaciones para aprovechar al máximo sus funciones.
+Por ello, al comenzar a utilizar Ubuntu, es fundamental aprender a manejar la terminal, ya que facilita el uso y la administración del sistema operativo.
 
-[📝💻El uso de la terminal](./Archivos/Herramientas/Terminal/Recomendaciones.md)
+Si quieres conocer más sobre [📝💻 el uso de la terminal](./Archivos/Herramientas/Terminal/Recomendaciones.md) donde se muestran varios de de los comandos con su funcionalidad y se habla a más profundidad sobre la terminal.
 
 ### 5.2. 🗂️🐙  Git y Github
 
@@ -230,25 +227,12 @@ Por otro lado, GitHub es una plataforma basada en la nube que utiliza Git para a
 >[!TIP]
 >Puedes tener tu cuenta de github con el correo de la universidad y te da los beneficios de "GitHub Education". [Saber más](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student)
 
-#### 5.2.1. 📌 Convenciones comunes para mensajes de commit en GitHub  
+Si quieres conocer más sobre [✍🏼🗂️🐙 el uso de git y github](./Archivos/Herramientas/Git/Recomendaciones.md) donde se muestran varios de de los comandos con su funcionalidad y se habla a más profundidad sobre el uso de estas herramientas.
 
-| **Sigla**   | **Significado**                                     | **Descripción** |
-|------------|-------------------------------------------------|----------------|
-| `feat`     | Feature (Nueva funcionalidad)                   | Se usa cuando se agrega una nueva función o característica al proyecto. |
-| `fix`      | Fix (Corrección de errores)                     | Indica que se ha corregido un error en el código. |
-| `docs`     | Documentation (Documentación)                   | Modificaciones en archivos de documentación (README, comentarios, etc.). |
-| `style`    | Code Style (Estilo de código)                   | Cambios en formato, espacios o estilo sin afectar la funcionalidad. |
-| `refactor` | Refactoring (Reestructuración)                  | Mejora en la estructura del código sin cambiar su comportamiento. |
-| `perf`     | Performance (Optimización de rendimiento)       | Cambios que mejoran la velocidad o eficiencia del código. |
-| `test`     | Testing (Pruebas)                               | Adición o modificación de pruebas automatizadas. |
-| `chore`    | Chores (Tareas de mantenimiento)                | Actualizaciones menores, como cambios en dependencias o scripts. |
-| `ci`       | Continuous Integration (Integración continua)   | Cambios en la configuración de CI/CD (GitHub Actions, Travis, etc.). |
-| `build`    | Build (Compilación)                             | Cambios que afectan el proceso de construcción o dependencias. |
-| `revert`   | Revert (Revertir cambios)                       | Deshacer un commit anterior. |
+#### 5.2.1. 📂 Recursos
 
-
-#### 5.2.2. 📹📺 Videos
-
+<details>
+  <summary>📹📺 Videos</summary>
 <div align="center" style="display: flex; gap: 20px; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=HiXLkL42tMU">
     <img src="https://img.youtube.com/vi/HiXLkL42tMU/0.jpg" alt="Git y Github | Curso Práctico de Git y Github Desde Cero" width="400px">
@@ -257,12 +241,24 @@ Por otro lado, GitHub es una plataforma basada en la nube que utiliza Git para a
     <img src="https://img.youtube.com/vi/3GymExBkKjE/0.jpg" alt="Curso de GIT y GITHUB desde CERO para PRINCIPIANTES" width="400px">
   </a>
 </div>
+<div align="center" style="display: flex; gap: 20px; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=VdGzPZ31ts8">
+    <img src="https://img.youtube.com/vi/VdGzPZ31ts8/0.jpg" alt="Aprende GIT ahora! curso completo GRATIS desde cero" width="400px">
+  </a>
+  <a href="https://www.youtube.com/watch?v=9ZJ-K-zk_Go">
+    <img src="https://img.youtube.com/vi/9ZJ-K-zk_Go/0.jpg" alt="Aprende GIT ahora! curso completo GRATIS desde cero" width="400px">
+  </a>
+</div>
+</details>
 
-#### 5.2.3. 🔗📚 Links 
+<details>
+  <summary>🔗📚 Links </summary>
 
 - [Curso Profesional de Git y GitHub](https://harvest-storm-649.notion.site/Curso-Profesional-de-Git-y-GitHub-4beee201a92040afbb6d82562b11c12a)
 - [Generacion de gitignore](https://www.toptal.com/developers/gitignore/)
 - [Licencias para el repositorio](https://choosealicense.com/licenses/)
+
+</details>
 
 ### 5.3. 📝 Visual Studio Code
 
@@ -297,7 +293,10 @@ Las extensiones facilitan el uso de lenguajes y el desarrollo de código. Aca al
 
 Markdown es un lenguaje de marcado ligero que permite dar formato a textos de manera sencilla y rápida, sin necesidad de usar editores complejos. Se utiliza ampliamente en documentación, blogs, README de proyectos en GitHub y plataformas de desarrollo. Su sintaxis intuitiva permite estructurar contenido con encabezados, listas, enlaces, imágenes y tablas de manera eficiente. Además, es compatible con múltiples herramientas y convertidores que lo transforman en HTML u otros formatos, lo que lo convierte en una opción ideal para desarrolladores, escritores y creadores de contenido.
 
-#### 5.4.1. 📹📺 Videos
+#### 5.4.1. 📂 Recursos
+
+<details>
+  <summary>📹📺 Videos</summary>
 
 <div align="center" style="display: flex; gap: 20px; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=oxaH9CFpeEE">
@@ -308,11 +307,15 @@ Markdown es un lenguaje de marcado ligero que permite dar formato a textos de ma
   </a>
 </div>
 
-#### 5.4.2. 🔗📚 Links 
+</details>
+
+<details>
+  <summary>🔗📚 Links </summary>
 
 - [Sintaxis de escritura y formato básicos en GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Editor online](https://pandao.github.io/editor.md/en.html)
 
+</details>
 
 ### 5.5. 🏗️ LeoCAD
 
