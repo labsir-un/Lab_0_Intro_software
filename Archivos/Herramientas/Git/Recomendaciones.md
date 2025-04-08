@@ -37,9 +37,14 @@
   - [5. 🕵️‍♂️📝 Monitoreo de un archivo](#5-️️-monitoreo-de-un-archivo)
   - [🧐📄 Viendo los cambios de un archivo](#-viendo-los-cambios-de-un-archivo)
   - [🛠️🐙 Usando GitHub](#️-usando-github)
+  - [Haciendo un merge](#haciendo-un-merge)
+  - [Uso de ramas](#uso-de-ramas)
+  - [Flujo de trabajo con git y github](#flujo-de-trabajo-con-git-y-github)
 - [5. 🦾⚔️ Retos](#5-️-retos)
 - [Comandos de git](#comandos-de-git)
 - [Recomendaciones](#recomendaciones)
+  - [Issues](#issues)
+  - [Participación y comunidad](#participación-y-comunidad)
   - [Uso de SSH y llave de seguridad](#uso-de-ssh-y-llave-de-seguridad)
   - [5.0.1. 📌 Convenciones comunes para mensajes de commit en GitHub](#501--convenciones-comunes-para-mensajes-de-commit-en-github)
 </details>
@@ -165,7 +170,18 @@ Con Git, una de las cosas más importantes es la posibilidad de ver los cambios 
 Como se ha mostrado, Git y GitHub no son lo mismo. Git es una herramienta local para controlar versiones de código, mientras que GitHub es una plataforma en línea para alojar y colaborar en repositorios Git. A continuación, verás cómo conectar un repositorio Git con GitHub.
 
 1. Ir a github y crear un repositorio en blanco.
-2. 
+2. Como nombre del repositorio pon tu nombre de usuario. Agrega una descripción como: *"Mi perfil de github"*. Dejalo en visibilidad publica y las demas opciones dejalas por defecto. Hablaremos más adelante de cada una.
+3. Una vez creado el repositorio en blanco podemos ver las diferentes opciones de conectar el repositorio que es por una conexión https o ssh. Por temas de seguridad usaremos la ssh para esto es necesario la creación de una llave ssh.
+4. Una vez creada la llave le diremos a github cual es la llave para la conexión.
+5. Con la llave agregada conectaremos nuestro repositorio local con el repositorio de github con los siguientes comandos
+6. Una vez conectado el repositorio con github podemos traer los cambios y publicarlos de la siguiente manera
+
+### Haciendo un merge
+
+### Uso de ramas
+
+### Flujo de trabajo con git y github
+
 
 
 ## 5. 🦾⚔️ Retos
@@ -197,6 +213,10 @@ Como se ha mostrado, Git y GitHub no son lo mismo. Git es una herramienta local 
 |                          | `git pull origin <nombre_rama_remota>`                        | Descarga y fusiona cambios de una rama en el remoto               |
 
 ## Recomendaciones
+
+### Issues
+
+### Participación y comunidad
 
 ### Uso de SSH y llave de seguridad
 

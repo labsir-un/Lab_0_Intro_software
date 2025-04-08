@@ -46,7 +46,7 @@
     - [4.4.1. 💾🖥️ Instalación de CoppeliaSim](#441-️-instalación-de-coppeliasim)
     - [4.4.2. 📂 Recursos](#442--recursos)
   - [4.5. 🦾 ROS](#45--ros)
-    - [4.5.1. 💾🖥️ Instalación de](#451-️-instalación-de)
+    - [4.5.1. 💾🖥️ Instalación de ROS](#451-️-instalación-de-ros)
     - [4.5.2. 📂 Recursos](#452--recursos)
 - [5. ⚙️🧰 Algunas herramientas utiles](#5-️-algunas-herramientas-utiles)
   - [5.1. ⌨️ Terminal](#51-️-terminal)
@@ -190,9 +190,9 @@ Para conocer el proceso de intalación dirigase a:
 <details>
   <summary>🔗🤖📡 Uso de CoppeliaSim con Matlab</summary>
 
-- [📡🔄📊 Guia CoppeliaSim - Conexión Matlab y CoppeliaSim](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_01.md)
-- [🤖🔄📈 Guía CoppeliaSim - Intercambio de información entre Matlab y CoppeliaSim](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_02.md)
-- [📊➡️📍 Guía CoppeliaSim - Modificación de posición en CoppeliaSim desde MATLAB](./Archivos/CoppeliaSim/Recursos/Uso_conMatlab/Guias/Guia_CoppeliaSim_Matlab_03.md)
+- [📡🔄📊 Guia CoppeliaSim - Conexión Matlab y CoppeliaSim](./Archivos/CoppeliaSim/Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_01.md)
+- [🤖🔄📈 Guía CoppeliaSim - Intercambio de información entre Matlab y CoppeliaSim](./Archivos/CoppeliaSim/Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_02.md)
+- [📊➡️📍 Guía CoppeliaSim - Modificación de posición en CoppeliaSim desde MATLAB](./Archivos/CoppeliaSim/Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_03.md)
 </details>
 
 ### 4.5. 🦾 ROS
