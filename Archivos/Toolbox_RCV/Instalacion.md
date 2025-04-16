@@ -91,7 +91,7 @@
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXpydHdscWpya2lydDM2MnlzZWRvbmlpd29zcXpzNHFxNWNhbnU0YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KO4H2DOkmonW2LGfyG/giphy.gif" alt="Copiar_rvctools" width="600px">
 </div>
 
-1. Busca la ruta `C:\Program Files\MATLAB\R2024b\toolbox`.
+2. Busca la ruta `C:\Program Files\MATLAB\R2024b\toolbox`.
 
 >[!WARNING]
 >Si la ruta no funciona remplaza `<Versión_matlab>` con la version de matlab que esta instalada en el computador `C:\Program Files\MATLAB\<Versión_matlab>\toolbox`.
@@ -100,15 +100,15 @@
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXpzaGhrOGppb3hoeXVjNnlzcmc3bW85bzRqZ2x1aDQxeTNoaXYwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5G412CxPk8Vm6NGTiT/giphy.gif" alt="Carpeta_toolbox" width="600px">
 </div>
 
-1. Pega la carpeta.
+3. Pega la carpeta.
 
 <div align="center">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDJnZmZya2J0YTNrazhrNjMzNDYwc2NmOHljeDRoaHllbnVyOGV2NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eLDWIkN6tzXt3rxKeq/giphy.gif" alt="RTB9+MVTB3" width="600px">
 </div>
 
-1. Abre MATLAB
+4. Abre MATLAB
 
-2. En la barra de tareas superior busca la sección *"ENVIROMEN"* y da click en "*Set Path*". Se abrira una ventana.
+5. En la barra de tareas superior busca la sección *"ENVIROMEN"* y da click en "*Set Path*". Se abrira una ventana.
 
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21mZzlrYWJic3psbnVnajBjeng3OGMxeDZhb3d1b2g0dHp6OTNuaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9j9GBY8RKj9YTcDiYd/giphy.gif" alt="Set_Path" width="600px">

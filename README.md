@@ -57,7 +57,7 @@
   - [5.4. 📑 Markdown](#54--markdown)
     - [5.4.1. 📂 Recursos](#541--recursos)
   - [5.5. 🏗️ LeoCAD](#55-️-leocad)
-    - [5.5.1. 🔗📚 Links](#551--links)
+    - [5.5.1. 📂 Recursos](#551--recursos)
 </details>
 
 ---
@@ -271,27 +271,55 @@ Visual Studio Code (VS Code) es un editor de código fuente ligero, potente y al
 
 Las extensiones facilitan el uso de lenguajes y el desarrollo de código. Aca algunas extenciones que podran ser utiles:
 
+<details>
+  <summary>📄🖥️ Para código</summary>
+
 - **📸  CodeSnap:** Permite capturar y compartir fragmentos de código con formato atractivo, ideal para documentar y publicar código en redes.  
 
 - **🔍⚠️ Error Lens:** Resalta errores, advertencias y sugerencias directamente en el código, facilitando la depuración y mejorando la productividad.  
 
-- **🤖 GitHub Copilot:** Asistente de codificación basado en inteligencia artificial que sugiere líneas de código y funciones en tiempo real. (Necesitas una cuenta de github que lo tenga habilitado) 
+- **🤖 GitHub Copilot:** Asistente de codificación basado en inteligencia artificial que sugiere líneas de código y funciones en tiempo real. (Necesitas una cuenta de github que lo tenga habilitado)
+
+- **🌟📰 Better Comments:** s una extensión para Visual Studio Code que resalta y categoriza tus comentarios en colores, haciendo que sean mucho más visuales y fáciles de encontrar.
+
+</details>
+
+<details>
+  <summary>	📝📚 Para escribir documentación en markdonw</summary>
 
 - **📝 Markdown All in One:** Proporciona herramientas avanzadas para escribir y formatear archivos Markdown, incluyendo atajos y vista previa rápida.  
 
 - **📊 Markdown Preview Mermaid:** Agrega soporte para diagramas en Mermaid dentro de archivos Markdown, permitiendo visualizar gráficos en la vista previa.  
 
+</details> 
+
+<details>
+  <summary> 🧑‍💻💻 Para mejorar el uso del IDE</summary>
+
 - **🎨 Material Icon Theme:** Personaliza los iconos del explorador de archivos en VS Code con un diseño moderno y atractivo.  
+
+- **🔍📖 vscode-pdf:** Permite visualizar, buscar y navegar archivos PDF directamente en el editor.
+
+- **🌈🧱 indent-rainbow:** Visualiza la indentación con colores para mejorar la legibilidad del código.
+
+</details>
+
+<details>
+  <summary> 🛠️🧰 Para desarrollo </summary>
 
 - **⚙️ Matlab:** Brinda compatibilidad con el lenguaje MATLAB, incluyendo resaltado de sintaxis, autocompletado y depuración básica.  
 
 - **🤖🔧 ROS:** Agrega soporte para el desarrollo con Robot Operating System (ROS), facilitando la escritura y gestión de nodos y paquetes.  
 
-- **🔍📖 vscode-pdf:** Permite visualizar, buscar y navegar archivos PDF directamente en el editor.
+- **⚙️🤖 ev3dev-browser:** es una extensión oficial de VS Code para conectar, desarrollar y depurar código directamente en un brick LEGO EV3 que ejecute ev3dev (una distro Debian para robots LEGO).
+</details>
+
 
 ### 5.4. 📑 Markdown
 
 Markdown es un lenguaje de marcado ligero que permite dar formato a textos de manera sencilla y rápida, sin necesidad de usar editores complejos. Se utiliza ampliamente en documentación, blogs, README de proyectos en GitHub y plataformas de desarrollo. Su sintaxis intuitiva permite estructurar contenido con encabezados, listas, enlaces, imágenes y tablas de manera eficiente. Además, es compatible con múltiples herramientas y convertidores que lo transforman en HTML u otros formatos, lo que lo convierte en una opción ideal para desarrolladores, escritores y creadores de contenido.
+
+
 
 #### 5.4.1. 📂 Recursos
 
@@ -321,7 +349,22 @@ Markdown es un lenguaje de marcado ligero que permite dar formato a textos de ma
 
 LeoCAD es un software de modelado 3D diseñado para crear y visualizar construcciones con piezas de LEGO de manera intuitiva. Es una herramienta ideal para entusiastas, diseñadores y educadores que buscan planificar proyectos antes de construirlos físicamente. Cuenta con una extensa biblioteca de piezas basada en LDraw, permitiendo acceso a miles de elementos LEGO. Además, su interfaz amigable y su compatibilidad con otros programas de modelado hacen que sea una opción versátil para diseñar y compartir creaciones de manera digital.
 
-#### 5.5.1. 🔗📚 Links 
+#### 5.5.1. 📂 Recursos
+
+<details>
+  <summary>📹📺 Videos</summary>
+
+<div align="center" style="display: flex; gap: 20px; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=5MuGWJWCBpk">
+    <img src="https://img.youtube.com/vi/5MuGWJWCBpk/0.jpg" alt="LeoCad 01" width="400px">
+  </a>
+</div>
+
+</details>
+
+<details>
+  <summary>🔗📚 Links </summary>
 
 - [LeoCAD](https://www.leocad.org/)
 
+</details>

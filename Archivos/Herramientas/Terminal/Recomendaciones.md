@@ -41,7 +41,6 @@
   - [3.5. 🎛️🔄️🖥️ Redirecciones I/O y operadores de control](#35-️️️-redirecciones-io-y-operadores-de-control)
   - [3.6. 🛜📡 Red](#36--red)
 - [4. ⌨️Atajos del teclado](#4-️atajos-del-teclado)
-  - [4.1. **Atajos de teclado en la terminal**](#41-atajos-de-teclado-en-la-terminal)
 - [5. 💾🖥️ Programas](#5-️-programas)
 - [6. 🛠️🎨🖥️ Personalización de tu terminal](#6-️️-personalización-de-tu-terminal)
 - [7. 📚🗄️ Referencias](#7-️-referencias)
@@ -184,7 +183,6 @@ ls es un comando el cual permite usar diferentes opciones o flags con las cuales
 
 ## 4. ⌨️Atajos del teclado
 
-### 4.1. **Atajos de teclado en la terminal**
 | **Atajo**                  | **Descripción** |
 |----------------------------|---------------|
 | `Tab`                      | Autocompleta comandos y nombres de archivos. |
