@@ -129,7 +129,7 @@ En el mundo de la robótica, MATLAB permite diseñar, simular y probar algoritmo
 
 #### 4.2.1. 💾🖥️ Instalación de matlab
 
-Para conocer el proceso de intalación dirigase a:
+Para conocer el proceso de instalación dirigase a:
 
 [🚀🛠️📊 Guia de instalación MATLAB](./Archivos/Matlab/Instalacion.md)
 
@@ -197,7 +197,7 @@ El Toolbox de Peter Corke es una de las herramientas más utilizadas en el ámbi
 
 #### 4.3.1. 💾🖥️ Instalación de toolbox
 
-Para conocer el proceso de intalación dirigase a:
+Para conocer el proceso de instalación dirigase a:
 
 [🚀🛠️💾🖥️ Guia de instalación Toolbox de Peter Corke](./Archivos/Toolbox_RCV/Instalacion.md)
 
@@ -224,7 +224,7 @@ CoppeliaSim es una herramienta fundamental en la simulación de robots móviles,
 
 #### 4.4.1. 💾🖥️ Instalación de CoppeliaSim
 
-Para conocer el proceso de intalación dirigase a:
+Para conocer el proceso de instalación dirigase a:
 
 [🚀🛠️🎮 Guia de instalación CoppeliaSim](./Archivos/CoppeliaSim/Instalacion.md)
 
