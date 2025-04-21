@@ -264,20 +264,24 @@ Un merge en Git combina los cambios de dos ramas o fuentes diferentes en una sol
 
 2. Usa `git pull origin master` esto traera los cambios y creara un conflicto para solucionarlo es necesario hacer el merge. Con *"Visual studio code"* podemos ver el archivo y usando la herramienta de cambios ver los conflictos creados.
 
-
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWt0N2M5NTRmOGtpNWFqMGpneWw3NW1wZjYzdXJxZjk0Mmh5dW5sMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PP3IkZzssdQsP7SjVy/giphy.gif" alt="pull_pide_merge" width="600px">
-
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWt0N2M5NTRmOGtpNWFqMGpneWw3NW1wZjYzdXJxZjk0Mmh5dW5sMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PP3IkZzssdQsP7SjVy/giphy.gif" alt="pull_pide_merge" width="600px">
+</div>
 
 3. Con la herramienta puede decidir con que cambios quedarse, si mantener los datos actuales o rescribir el codigo y usar uno nuevo.
 
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG9xZ2l5NWs2N29nMjBjczBoZHdyYTc2YWJsMnJ4NGlweXFmMGN0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MCQRzX8BKkjRVxGqJD/giphy.gif" alt="Solucion_conflictos" width="600px">
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG9xZ2l5NWs2N29nMjBjczBoZHdyYTc2YWJsMnJ4NGlweXFmMGN0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MCQRzX8BKkjRVxGqJD/giphy.gif" alt="Solucion_conflictos" width="600px">
+</div>
 
 4. Luego git te solicitara hacer un commit con los archivos finales y confirmando cuales seran los cambios oficiales.
 
 >[!Note]
 >Para los mensajes de los merges se recomienda seguir la convención de mensajes mostrada en la sección [7.6. 📌✉️🔀 Convenciones comunes para mensajes de merge en git y github](#76-️-convenciones-comunes-para-mensajes-de-merge-en-git-y-github)
 
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJ3MmN3ZjFxbXQwZWJtanFwaWh3cjl1em0wbnoxaHZlYzRnYTUycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jXvBAeh0n2h6ewiMcB/giphy.gif" alt="commit_merge" width="600px">
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJ3MmN3ZjFxbXQwZWJtanFwaWh3cjl1em0wbnoxaHZlYzRnYTUycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jXvBAeh0n2h6ewiMcB/giphy.gif" alt="commit_merge" width="600px">
+</div>
 
 ### 3.6. 🌿🛠️ Uso de ramas
 
