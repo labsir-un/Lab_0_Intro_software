@@ -176,7 +176,7 @@ Con Git, una de las cosas más importantes es la posibilidad de ver los cambios 
   <img src="https://imgur.com/opFhyxe.png" alt="git_satuts_con_commit" width="560px">
 </div>
 
-2. Usa el comando `git log --graph --oneline --decorate` este te mostrara en la terminal entre parentecis las referencias que apuntan a un `commit` donde el *"Head"* es el punto donde va el repositorio, el mensaje del `commit` y un codigo hash el cual idenfica al `commit`
+2. Usa el comando `git log --graph --oneline --decorate` este te mostrara en la terminal entre parentecis las referencias que apuntan a un `commit` donde el *"Head"* es el punto donde va el repositorio, el mensaje del `commit` y un codigo hash el cual idenfica al `commit`.
 
 <div align="center">
   <img src="https://imgur.com/gL9tr0s.png" alt="git_log_1" width="560px">
@@ -288,12 +288,43 @@ Un merge en Git combina los cambios de dos ramas o fuentes diferentes en una sol
 Las ramas en Git y GitHub son líneas independientes de desarrollo que permiten trabajar en nuevas funciones o correcciones sin alterar la rama principal. De esta forma, facilitan flujos de trabajo para pruebas y modificaciones de código sin afectar la base del proyecto.
 
 1. Usa `git branch` esto te mostrara las ramas actuales del proyecto, en este caso aparecera una llamada `master`. Primero cambiaremos su nombre a main con `git branch -m main`
+
+>[!IMPORTANT]
+>La convención actual de github hace que la rama principal sea `main`. GitHub usa `main` en lugar de `master` como rama principal por una razón principal: para evitar connotaciones racistas y de dominio asociadas al término `master`. El cambio busca eliminar la terminología potencialmente ofensiva en un contexto donde la palabra `master` puede evocar ideas de esclavitud y control.  
+
+<div align="center">
+  <img src="https://imgur.com/HPfRyQR.png" alt="git_branch" width="600px">
+</div>
+
+<div align="center">
+  <img src="https://imgur.com/dsQl2Fs.png" alt="git_branch_rename" width="600px">
+</div>
+
 2. Crea una nueva rama con `git branch Info` esto crea una rama con el nombre `Info`.
+
+<div align="center">
+  <img src="https://imgur.com/QpU3MyZ.png" alt="git_branch_new" width="600px">
+</div>
+
 3. Con `git checkout Info` o `git switch Info` cambia de rama.
+
+<div align="center">
+  <img src="https://imgur.com/YRp7IaO.png" alt="git_branch_new" width="600px">
+</div>
+
 4. En la nueva modifica otra vez el archivo `README.md` has un nuevo `commit`.
 5. Con `git checkout main` cambia a la rama `main`.
-6. Haz `merge` de los datos en `Info` con `git merge info`. Resuelve los conflictos si aparecen.
+6. Haz `merge` de los datos en `Info` con `git merge Info`. Resuelve los conflictos si aparecen.
+
+<div align="center">
+  <img src="https://imgur.com/qqy5ZbP.png" alt="git_merge" width="600px">
+</div>
+
 7. Con `git log --graph --oneline --decorate` se puede ver como fue el proceso del `merge` entre las ramas. 
+
+<div align="center">
+  <img src="https://imgur.com/YK0BZRD.png" alt="git_merge" width="600px">
+</div>
 
 ## 4. 🦾⚔️ Retos
 
