@@ -207,25 +207,77 @@ Con Git, una de las cosas más importantes es la posibilidad de ver los cambios 
 Como se ha mostrado, Git y GitHub no son lo mismo. Git es una herramienta local para controlar versiones de código, mientras que GitHub es una plataforma en línea para alojar y colaborar en repositorios Git. A continuación, verás cómo conectar un repositorio Git con GitHub.
 
 1. Ir a [github](https://github.com/) y crear un repositorio.
+
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDZrcXlwaGo3MDU5NWw4dnR0ZmtldDA0ZG83MGtkYjNxNnE5dmV4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RZW7qkFx5B76s9RL28/giphy.gif" alt="github_crear_repo" width="600px">
+</div>
+
 2. Como nombre del repositorio pon tu nombre de usuario. Agrega una descripción como: *"Mi perfil de github"*. Dejalo en visibilidad publica y las demas opciones dejalas por defecto. Hablaremos más adelante de cada una.
+
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGd5czloeGs4ZzJod2s3d2FsZmVrazlzdTMwNjYwZ3IwaGZlaTExMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rhCoj7dbxwtGvaOE7v/giphy.gif" alt="github_datos_repo" width="600px">
+</div>
+
 3. Una vez creado el repositorio en blanco se puede ver las diferentes opciones para conectar el repositorio que es por una conexión https o ssh. Por temas de seguridad se recomienda conexión la ssh esto se puede ver en la sección [7.4. ⚙️🔐🔌 Configuracion de conexión ssh](#74-️-configuracion-de-conexión-ssh).
-4. Conecta el repositorio local con el repositorio de github con `git remote add <nombre_remoto> <URL_repositorio_remoto> `. Por convención se recomienda en nombre remoto usar `origin`. 
-5. Una vez conectado el repositorio con github se pueden traer los cambios con `git pull <nombre_remoto> <nombre_rama_a_traer>`. Como el repositorio esta en blanco solo sincronizara los historiales.
+
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmZsbTNmdGY4ZTNrNWlxZHMzMjFiODhldGczcG94MGg5Ym1odTZqMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7GjuMqtvkDo7oBITKE/giphy.gif" alt="github_conexion_repo" width="600px">
+</div>
+
+4. Conecta el repositorio local con el repositorio de github con `git remote add <nombre_remoto> <URL_repositorio_remoto> `. Por convención se recomienda en nombre remoto usar `origin`.
+
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzJqanpwczZyNjN4aXBocTU0am5venFmNjZlMDBhcnFjZXZuNXVuMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GhC3tuly0eXPDUPRoC/giphy.gif" alt="github_conexion_repo_local" width="600px">
+</div>
+
+5. Una vez conectado el repositorio con github se pueden traer los cambios con `git pull <nombre_remoto> <nombre_rama_a_traer>`. Como el repositorio esta en blanco dara un error por que no habra ninguna rama.
+
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTZ0dnc3d2R2MHk5ajc0bzQ3d3o4bGNobm8wdTY5c29lcm5od2xudSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MMmuaWtbiW0r7bpxy6/giphy.gif" alt="Pull_error_repo_local" width="600px">
+</div>
+
 6. Con el comando `git push <nombre_remoto> <nombre_rama_a_mandar>` se mandan los cambios en el repositorio local al repositorio en github.
+
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHcybjlyeXQ0cXpvNWMzamNqcjZ4Ym80NmY5dGdnd21yd293ODh2cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GxqfwbTqkLRtADoQui/giphy.gif" alt="Push_repo_local" width="600px">
+</div>
+
 7. En github actualiza la página y veras todos los cambios hechos ya publicados. Además puedes ir a tu perfil y ver como ahora esto tambien aparece en tu perfil.
+
+<div align="center" style="display: flex; gap: 20px; justify-content: center;">
+  <a>
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNThnMnpiOWEwYWhjc28wYWU1aHpvem5tMmtzc2g1MzB4NnIyZXF5byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QLAtPwmmh5GFyIQ2KN/giphy.gif" alt="github_actualizado" width="400px">
+  </a>
+  <a>
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWM3ajBwdmxqc25laWxqb2xxb2tzemFwbGZ6anh4bzNod2duN2lodSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fqvkiuEpKgh9pUBJoJ/giphy.gif" alt="Perfil_actualizado" width="400px">
+  </a>
+</div>
 
 ### 3.5. 🧠🔀📂 Haciendo un merge
 
 Un merge en Git combina los cambios de dos ramas o fuentes diferentes en una sola. Esto ocurre al unir ramas locales o al sincronizar un repositorio local con cambios nuevos del repositorio remoto (git pull hace un fetch + merge). Es asi que el hacer merge se vuelve en una herramienta muy poderosa para el trabajo colaborativo.
 
-1. En github modifica el archivo `README.md` y en el git local has otra modificación diferente. Además en github agrega una licencia.
+1. En github modifica el archivo `README.md` y en el git local has otra modificación diferente y has el commit correspondiente. Además en github agrega una licencia (Para esto crea un archivo con el nombre `LICENSE`).
 
 >[!NOTE]
 >Las licencias en GitHub son esenciales porque definen cómo otros pueden usar, modificar y distribuir tu código. Sin una licencia explícita, el proyecto no es legalmente reutilizable, lo que limita la colaboración y el crecimiento de la comunidad. Existen diversas licencias para ver más a detalle te recomiendo esta [página sobre licencias](https://choosealicense.com/).
 
-2. Usa `git pull origin main` esto traera los cambios y creara un conflicto para solucionarlo es necesario hacer el merge. Con *"Visual studio code"* podemos ver el archivo y usando la herramienta de cambios ver los conflictos creados.
+2. Usa `git pull origin master` esto traera los cambios y creara un conflicto para solucionarlo es necesario hacer el merge. Con *"Visual studio code"* podemos ver el archivo y usando la herramienta de cambios ver los conflictos creados.
+
+
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWt0N2M5NTRmOGtpNWFqMGpneWw3NW1wZjYzdXJxZjk0Mmh5dW5sMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PP3IkZzssdQsP7SjVy/giphy.gif" alt="pull_pide_merge" width="600px">
+
+
 3. Con la herramienta puede decidir con que cambios quedarse, si mantener los datos actuales o rescribir el codigo y usar uno nuevo.
-4. Luego git te solicitara hacer un commit con los archivos finales y confirmando cuales seran los cambios oficiales. 
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG9xZ2l5NWs2N29nMjBjczBoZHdyYTc2YWJsMnJ4NGlweXFmMGN0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MCQRzX8BKkjRVxGqJD/giphy.gif" alt="Solucion_conflictos" width="600px">
+
+4. Luego git te solicitara hacer un commit con los archivos finales y confirmando cuales seran los cambios oficiales.
+
+>[!Note]
+>Para los mensajes de los merges se recomienda seguir la convención de mensajes mostrada en la sección [7.6. 📌✉️🔀 Convenciones comunes para mensajes de merge en git y github](#76-️-convenciones-comunes-para-mensajes-de-merge-en-git-y-github)
+
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJ3MmN3ZjFxbXQwZWJtanFwaWh3cjl1em0wbnoxaHZlYzRnYTUycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jXvBAeh0n2h6ewiMcB/giphy.gif" alt="commit_merge" width="600px">
 
 ### 3.6. 🌿🛠️ Uso de ramas
 
