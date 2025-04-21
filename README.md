@@ -139,12 +139,55 @@ Para conocer el proceso de intalación dirigase a:
   <summary>🛤️🚗🤖📡 Simulacion de robots moviles</summary>
 
 - [✍🏼🤖 Dibujar robot circular 2D](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibrob.m)
-- [✍🏼🤖🔴 Dibujar robot circular 2D dado un radio](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibrobr.m) 
+
+- [✍🏼🤖🔴 Dibujar robot circular 2D dado un radio](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibrobr.m)
+
 - [✍🏼🚗📍🧭Dibujar vehículos en posiciones y orientaciones](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibveh1.m)
+
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmRnaW44ZGVtM3VoNTB2eHBpa3V1eHRoMmxqM3M1MDg0NTh3M2M5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SJojxpkk5PWYSGfIdi/giphy.gif" alt="dibrob" width="400px">
+</div>
+
 - [✍🏼🚗🚙📍🧭 Dibujar vehículos con diferentes radios en posiciones y orientaciones dada](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibveh2.m)
+
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjR2dmE2anJucG5kbmNicDRoYm1zMXhlaXhiNXlzdDY5ZDJyMmdzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/COBJzcVXEEdc4ZPoTv/giphy.gif" alt="dibrobr" width="400px">
+</div>
+
 - [∫📈🧮 Metodos de integración](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/intgr.m)
 - [🏎️💨 Movimiento cinemático de un móvil en un plano](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/kinetbas.m)
+
+<div align="center" style="display: flex; gap: 20px; justify-content: center;">
+  <a>
+    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnZuYXc4ajdkNzZ5cjZxMGU5OWlkbmNlYngxazBjN2J6NDZ6YTBtcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xZTttNyht33ycdOxEr/giphy.gif" alt="Ori_vel_const" width="400px">
+  </a>
+  <a>
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGhiNnFhcncwYzZsbnY3Y2txcDd4dmloMnZzbXd4Zmhtb2Z2aHRlMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rlNJZpUkfEQodHfA8p/giphy.gif" alt="Ori_diff_cero_Vel_const" width="400px">
+  </a>
+</div>
+
+<div align="center" style="display: flex; gap: 20px; justify-content: center;">
+  <a>
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjM4bWdhNjJobXZsaWVkNGJiNng1czBrY3lub3c4M21jNTNrOGkzMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/383g9Zm7gu5Cnwq9nJ/giphy.gif" alt="Ori_cambia_Vel_const" width="400px">
+  </a>
+  <a>
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFoemdyaXcxOTllYWNiMXQ5MzQxZjRqNXlpZzBwcHNlN3BlOG95ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x11lyohsDalHuURsvF/giphy.gif" alt="Vel_ang_const_Vel_lin_const" width="400px">
+  </a>
+</div>
+
+
 - [🏎️💨📈 Movimiento cinemático de un móvil perfiles de velocidad](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/kinetbas2.m)
+
+
+<div align="center" style="display: flex; gap: 20px; justify-content: center;">
+  <a>
+    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWk4bzZxM3R0eW41OTlqd2QyZGMya2Z0ZmZ3YnI1NzN6Ymx3cDBwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uplExeTdNn43zsLAhJ/giphy.gif" alt="acel_lin_vel_trap" width="400px">
+  </a>
+  <a>
+    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3k3d2J1OW1sNmNndTA3eDk1cWgwZGxqOHNhd2MzOXZtM3EzNndkdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7mzPNA1IR4o4DfAuX2/giphy.gif" alt="vel_trap_cam_ori" width="400px">
+  </a>
+</div>
+
 - [📍➡️📍 Simulacion de movimiento](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/sim1.m)
 </details>
 
@@ -319,7 +362,7 @@ Las extensiones facilitan el uso de lenguajes y el desarrollo de código. Aca al
 
 Markdown es un lenguaje de marcado ligero que permite dar formato a textos de manera sencilla y rápida, sin necesidad de usar editores complejos. Se utiliza ampliamente en documentación, blogs, README de proyectos en GitHub y plataformas de desarrollo. Su sintaxis intuitiva permite estructurar contenido con encabezados, listas, enlaces, imágenes y tablas de manera eficiente. Además, es compatible con múltiples herramientas y convertidores que lo transforman en HTML u otros formatos, lo que lo convierte en una opción ideal para desarrolladores, escritores y creadores de contenido.
 
-
+Si quieres conocer más sobre [✍️📄💻📝 El uso de markdown](./Archivos/Herramientas/Markdown/Recomendaciones.md) donde se muestran varias de las fncionalidades de este lenguaje y como usarlo junto a github para documentar proyectos y mejorar la presentación de tu perfil en github.
 
 #### 5.4.1. 📂 Recursos
 

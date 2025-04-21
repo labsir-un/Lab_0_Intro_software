@@ -80,6 +80,7 @@ GitHub es una plataforma en línea que permite alojar, gestionar y compartir pro
 ### 2.2. 🖥️💾 Software
 
 - Ubuntu 20.04.
+- Navegador web.
 
 >[!IMPORTANT]
 >Si usa windows es necesario instalar git, se recomienda usar Git Bash para seguir esta guia.
@@ -91,8 +92,8 @@ GitHub es una plataforma en línea que permite alojar, gestionar y compartir pro
 1. Para tener un repositorio, primero se debe crear un directorio destinado a él. En este directorio se almacenarán todos los archivos que serán monitoreados.
 
 ```sh
-mkdir mi_proyecto
-cd mi_proyecto
+mkdir mi_perfil
+cd mi_perfil
 ```
 
 2. Inicializar Git en el proyecto. Se inicializa un repositorio Git local en este directorio, creando la carpeta `.git`, donde se guardará el historial del proyecto.
@@ -208,14 +209,20 @@ Como se ha mostrado, Git y GitHub no son lo mismo. Git es una herramienta local 
 1. Ir a [github](https://github.com/) y crear un repositorio.
 2. Como nombre del repositorio pon tu nombre de usuario. Agrega una descripción como: *"Mi perfil de github"*. Dejalo en visibilidad publica y las demas opciones dejalas por defecto. Hablaremos más adelante de cada una.
 3. Una vez creado el repositorio en blanco se puede ver las diferentes opciones para conectar el repositorio que es por una conexión https o ssh. Por temas de seguridad se recomienda conexión la ssh esto se puede ver en la sección [7.4. ⚙️🔐🔌 Configuracion de conexión ssh](#74-️-configuracion-de-conexión-ssh).
-4. Conecta el repositorio local con el repositorio de github con los siguientes comandos.
-5. Una vez conectado el repositorio con github podemos traer los cambios y publicarlos de la siguiente manera
+4. Conecta el repositorio local con el repositorio de github con `git remote add <nombre_remoto> <URL_repositorio_remoto> `. Por convención se recomienda en nombre remoto usar `origin`. 
+5. Una vez conectado el repositorio con github se pueden traer los cambios con `git pull <nombre_remoto> <nombre_rama_a_traer>`. Como el repositorio esta en blanco solo sincronizara los historiales.
+6. Con el comando `git push <nombre_remoto> <nombre_rama_a_mandar>` se mandan los cambios en el repositorio local al repositorio en github.
+7. En github actualiza la página y veras todos los cambios hechos ya publicados. Además puedes ir a tu perfil y ver como ahora esto tambien aparece en tu perfil.
 
 ### 3.5. 🧠🔀📂 Haciendo un merge
 
 Un merge en Git combina los cambios de dos ramas o fuentes diferentes en una sola. Esto ocurre al unir ramas locales o al sincronizar un repositorio local con cambios nuevos del repositorio remoto (git pull hace un fetch + merge). Es asi que el hacer merge se vuelve en una herramienta muy poderosa para el trabajo colaborativo.
 
-1. En github modifica el archivo `README.md` y en el git local has otra modificación diferente. 
+1. En github modifica el archivo `README.md` y en el git local has otra modificación diferente. Además en github agrega una licencia.
+
+>[!NOTE]
+>Las licencias en GitHub son esenciales porque definen cómo otros pueden usar, modificar y distribuir tu código. Sin una licencia explícita, el proyecto no es legalmente reutilizable, lo que limita la colaboración y el crecimiento de la comunidad. Existen diversas licencias para ver más a detalle te recomiendo esta [página sobre licencias](https://choosealicense.com/).
+
 2. Usa `git pull origin main` esto traera los cambios y creara un conflicto para solucionarlo es necesario hacer el merge. Con *"Visual studio code"* podemos ver el archivo y usando la herramienta de cambios ver los conflictos creados.
 3. Con la herramienta puede decidir con que cambios quedarse, si mantener los datos actuales o rescribir el codigo y usar uno nuevo.
 4. Luego git te solicitara hacer un commit con los archivos finales y confirmando cuales seran los cambios oficiales. 
@@ -234,26 +241,50 @@ Las ramas en Git y GitHub son líneas independientes de desarrollo que permiten 
 
 ## 4. 🦾⚔️ Retos
 
-1. Usando git y github subiendo a github desde un git local un proyecto que hayas trabajado.
-2. Has una lista de tareas simple y has el seguimiento de esta con git y github.
+1. Completa tu perfil en github usando git y mira [✍️📄💻📝 El uso de markdown](../Markdown/Recomendaciones.md) donde se habla de muchas utilidades para esto. 
+2. Usando git y github subiendo a github desde un git local un proyecto que hayas trabajado.
+3. Has una lista de tareas simple y has el seguimiento de esta con git y github.
 
 
 ## 5. 👀🔀🦾 Flujo de trabajo con git y github
 
 Flujo de trabajo básico en GitHub
 
-
 ```mermaid
-flowchart TD
-  Fork --> Clone;
-  Clone --> id1(Nueva rama);
-  id1 --> Cambios;
-  Cambios --> Commit;
-  Commit --> Push;
-  Push --> id2(Pull Request);
-  id2 --> Revisión;
-  Revisión --> Merge;
-  
+flowchart LR
+
+  %% Subgráfico LOCAL
+  subgraph local ["🖥️ Repositorio Local"]
+    direction TB
+    A[Fork] --> B[Clone]
+    B --> C[Nueva rama]
+    C --> D[Cambios]
+    D --> E[Commit]
+    E --> F[Push]
+  end
+
+  %% Subgráfico REMOTO
+  subgraph remoto ["🌐 Repositorio Remoto"]
+    direction TB
+    G[Pull Request] --> H[Revisión]
+    H --> I[Merge]
+  end
+
+  %% Conexión entre ambos
+  F --> G
+
+  %% Estilos subgraph LOCAL
+  style A fill:#fce4ec,stroke:#f06292,stroke-width:2px,color:#6e6e6e
+  style B fill:#e3f2fd,stroke:#42a5f5,stroke-width:2px,color:#6e6e6e
+  style C fill:#f3e5f5,stroke:#ab47bc,stroke-width:2px,color:#6e6e6e
+  style D fill:#fff8e1,stroke:#fbc02d,stroke-width:2px,color:#6e6e6e
+  style E fill:#e8f5e9,stroke:#66bb6a,stroke-width:2px,color:#6e6e6e
+  style F fill:#ede7f6,stroke:#9575cd,stroke-width:2px,color:#6e6e6e
+
+  %% Estilos subgraph REMOTO
+  style G fill:#e3f2fd,stroke:#2196f3,stroke-width:2px,color:#6e6e6e
+  style H fill:#fff3e0,stroke:#ff9800,stroke-width:2px,color:#6e6e6e
+  style I fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,color:#6e6e6e
 ```
 
 1. **Clonar o forkar:** Hacer un fork (bifurcar) es copias un proyecto a tu cuenta de github para poder editarlo sin tocar el original. Mientras clonare es hacer copias el repo a tu máquina local.
@@ -293,59 +324,24 @@ git push origin nueva-funcionalidad
 
 ###  5.1. 📋🐙 Partes del menú principal de un repositorio en GitHub
 
-Cuando entras a un repo (ejemplo: github.com/usuario/repositorio), verás varias pestañas principales arriba. Te explico cada una:
+Cuando entras a un repositorio , verás varias pestañas principales arriba. Te explico cada una:
 
-- **📄📚🔍 Code**
-Es la vista principal del repositorio.
+- **📄📚🔍 Code:** Es la vista principal del repositorio muestra los archivos del proyecto y permite clonar o descargar con el botón "<> Code", ofreciendo opciones como HTTPS, SSH o GitHub CLI. También puedes navegar entre ramas, ver el README.md y revisar el historial de cambios.
 
-Muestra los archivos del proyecto (como si fuera un explorador).
+- **🐛🐞🚧 Issues:** En esta sección, los usuarios pueden reportar problemas, errores o solicitar mejoras. Es posible etiquetar, asignar responsables y comentar en cada caso, lo que la hace ideal para llevar un seguimiento organizado de bugs o tareas.
 
-Tiene botones para clonar o descargar (<> Code → HTTPS / SSH / GitHub CLI).
+- **📤🔃📥 Pull Requests:** Esta sección muestra todas las solicitudes de cambios al proyecto, permitiendo revisar los cambios propuestos antes de integrarlos. Puedes ver las diferencias (diff), dejar comentarios y aprobar o cerrar un pull request (PR).
 
-Puedes navegar entre ramas, ver el README.md, y revisar el historial.
+- **🧪📦🚀 Actions:** GitHub Actions permite la automatización del flujo de trabajo (CI/CD), como correr tests, compilar o desplegar el proyecto de forma automática. Estas acciones se configuran mediante archivos YAML dentro de la carpeta `.github/workflows/`.
 
-- **🐛🐞🚧 Issues**
-Aquí los usuarios reportan problemas, errores o solicitudes de mejora.
+- **🧭📊⛳ Projects:** Ofrece una gestión tipo Kanban para organizar tareas, similar a Trello. Permite crear tableros con columnas como *"To do"*, *"In progress"* y *"Done"* para visualizar y dar seguimiento al trabajo.
 
-Puedes etiquetar, asignar, y comentar.
+- **📄🗂️🗃️ Wiki:** Permite una documentación extensa, similar a Wikipedia, si el proyecto lo habilita. Puedes crear y editar páginas para explicar cómo usar el proyecto y ofrecer guías detalladas.
 
-Ideal para llevar seguimiento de bugs o tareas.
+- **🕵️🔐🛡️ Security:** Ofrece reportes de vulnerabilidades y análisis de dependencias, mostrando alertas sobre posibles riesgos y sugiriendo parches para solucionarlos.
 
-- **📤🔃📥 Pull Requests**
-Muestra todas las solicitudes de cambios al proyecto.
+- **📈🗺️📉 Insights:** Las estadísticas del repositorio incluyen gráficos sobre commits, colaboradores, ramas, forks, estrellas, entre otros. Permiten visualizar quién contribuye, cuánto y cuándo, proporcionando una visión clara de la actividad del proyecto.
 
-Aquí se revisan los cambios propuestos antes de integrarlos.
-
-Puedes ver diferencias (diff), dejar comentarios, y aprobar o cerrar un PR.
-
-- **🧪📦🚀 Actions**
-Automatización con GitHub Actions (CI/CD).
-
-Puedes correr tests automáticamente, compilar, o desplegar tu proyecto.
-
-Se definen workflows (.github/workflows/*.yml).
-
-- **🧭📊⛳ Projects**
-Gestión tipo Kanban para organizar tareas como en Trello.
-
-Puedes crear tableros con columnas: To do, In progress, Done.
-
-- **📄🗂️🗃️ Wiki**
-Documentación extensa (si el proyecto lo habilita).
-
-Puedes crear y editar páginas tipo Wikipedia para explicar cómo usar el proyecto.
-
-- **🕵️🔐🛡️ Security**
-Reportes de vulnerabilidades, análisis de dependencias.
-
-Aquí puedes ver alertas y parches sugeridos.
-
-- **📈🗺️📉 Insights**
-Estadísticas del repo:
-
-Gráficos de commits, colaboradores, ramas, forks, estrellas, etc.
-
-Muestra quién contribuye, cuánto y cuándo.
 
 
 ## 6. ⌨️📄 Comandos de git
@@ -377,17 +373,17 @@ Los issues en GitHub sirven para gestionar tareas, reportar problemas y proponer
 
 #### 7.1.1. 🧐🤔 ¿Para qué sirven los issues?
 
-- **Reportar errores (bugs):** Describir fallos en el código para que los desarrolladores puedan revisarlos y corregirlos.
+- **🐞⚠️🛑 Reportar errores (bugs):** Describir fallos en el código para que los desarrolladores puedan revisarlos y corregirlos.
 
-- **Solicitar nuevas funciones (features):** Sugerir mejoras o nuevas funcionalidades para el proyecto.
+- **📣💡✨ Solicitar nuevas funciones (features):** Sugerir mejoras o nuevas funcionalidades para el proyecto.
 
-- **Hacer preguntas:** Pedir ayuda o aclaraciones sobre el uso del proyecto.
+- **🤷‍♂️🗣️❓ Hacer preguntas:** Pedir ayuda o aclaraciones sobre el uso del proyecto.
 
-- **Organizar el trabajo:** Dividir el desarrollo en tareas claras que se pueden asignar y seguir.
+- **📅🔄✅ Organizar el trabajo:** Dividir el desarrollo en tareas claras que se pueden asignar y seguir.
 
-- **Colaborar con otros:** Los issues permiten discutir ideas, compartir avances, dar retroalimentación y tomar decisiones en grupo.
+- **🤝👥🎯 Colaborar con otros:** Los issues permiten discutir ideas, compartir avances, dar retroalimentación y tomar decisiones en grupo.
 
-- **Documentar el progreso:** Sirven como historial de lo que se ha hecho, lo que falta y lo que se está considerando.
+- **📝⏳📊 Documentar el progreso:** Sirven como historial de lo que se ha hecho, lo que falta y lo que se está considerando.
 
 >[!IMPORTANT]
 >De esta forma, el uso de los `issues` en los laboratorios se convierte en una gran herramienta de trabajo colaborativo para todo el grupo. Revisa los que ya han sido cerrados; es posible que encuentres ahí lo que necesitas.

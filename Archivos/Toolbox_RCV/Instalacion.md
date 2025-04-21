@@ -114,13 +114,13 @@
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21mZzlrYWJic3psbnVnajBjeng3OGMxeDZhb3d1b2g0dHp6OTNuaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9j9GBY8RKj9YTcDiYd/giphy.gif" alt="Set_Path" width="600px">
 </div>
 
-6. En la ventana *"Set Path"* da clic en *"Add Folder..."*.
+6. En la ventana *"Set Path"* da clic en *"Add with Subfolders..."*.
 
 <div align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG5hMG93ZXM3b3ZmcnprZmtuYzE2M2lwMXh3ZHh0cG13YnJmZGlybyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6J4JXgxJ8wrfewVYlA/giphy.gif" alt="Add_Folder" width="600px">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDAxbjhqZmY1dnUwd2tjd2I4ZHBnYXQ5d252MWxleHJha3VrZGE2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/atUxcOLti9yWCRcxLj/giphy.gif" alt="Add_Folder_With_Subfolders" width="600px">
 </div>
 
-7. Busca la ruta `C:\Program Files\MATLAB\R2024b\toolbox` y la carpeta "*rvctools*", seleccionarla y dar en *"Seleccionar"*
+1. Busca la ruta `C:\Program Files\MATLAB\R2024b\toolbox` y la carpeta "*rvctools*", seleccionarla y dar en *"Seleccionar"*
 
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXlydnVwdnZjeGZvbTQ1eXl0YXZidzhxMnlnaWhoaHNjY3o0cmo0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iqzyUqowTrK973YOOf/giphy.gif" alt="Buscar_carpeta" width="600px">
