@@ -253,6 +253,27 @@ Como se ha mostrado, Git y GitHub no son lo mismo. Git es una herramienta local 
   </a>
 </div>
 
+```mermaid
+sequenceDiagram
+    box Flujo archivos en un repositorio local
+    participant "Directorio de trabajo (Working Directory)"
+    participant "Staging area (Index)"
+    participant "Repositorio (Local)"
+    end
+    participant "Remoto (GitHub)"
+
+    %% Trabajo local
+    Repository ->> "Directorio de trabajo (Working Directory)": git checkout
+    "Directorio de trabajo (Working Directory)" ->> "Staging area (Index)": git add
+    "Staging area (Index)" ->> "Repositorio (Local)": git commit -m "mensaje"
+
+    %% Trabajo remoto
+    "Repositorio (Local)" ->> "Remoto (GitHub)": git push origin
+    "Remoto (GitHub)" ->> "Repositorio (Local)": git fetch origin
+    "Repositorio (Local)" ->> "Directorio de trabajo (Working Directory)": git merge origin/<branch>
+```
+
+
 ### 3.5. 🧠🔀📂 Haciendo un merge
 
 Un merge en Git combina los cambios de dos ramas o fuentes diferentes en una sola. Esto ocurre al unir ramas locales o al sincronizar un repositorio local con cambios nuevos del repositorio remoto (git pull hace un fetch + merge). Es asi que el hacer merge se vuelve en una herramienta muy poderosa para el trabajo colaborativo.
@@ -282,6 +303,29 @@ Un merge en Git combina los cambios de dos ramas o fuentes diferentes en una sol
 <div align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJ3MmN3ZjFxbXQwZWJtanFwaWh3cjl1em0wbnoxaHZlYzRnYTUycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jXvBAeh0n2h6ewiMcB/giphy.gif" alt="commit_merge" width="600px">
 </div>
+
+```mermaid
+%%{ init : { "theme": "base" } }%%
+gitGraph
+   
+   commit id: "Inicio"
+   branch master
+   commit id: "Commit inicial"
+
+   branch github
+   checkout github
+   commit id: "Modifica README.md en GitHub"
+   commit id: "Agrega LICENSE en GitHub"
+
+   checkout master
+   commit id: "Modifica README.md localmente"
+
+   checkout master
+   merge github id: "git pull origin master (conflicto)"
+
+   commit id: "🔀 Merge resuelto con VSCode" tag: "push a GitHub"
+
+```
 
 ### 3.6. 🌿🛠️ Uso de ramas
 
@@ -325,6 +369,35 @@ Las ramas en Git y GitHub son líneas independientes de desarrollo que permiten 
 <div align="center">
   <img src="https://imgur.com/YK0BZRD.png" alt="git_merge" width="600px">
 </div>
+
+```mermaid
+flowchart LR
+    A[Inicia] --> B[git branch]
+    B --> C[git branch -m main]
+    C --> D[git branch Info]
+    D --> E[git checkout Info]
+    E --> F[Modificar README.md]
+    F --> G[git commit -m Actualización en Info]
+    G --> H[git checkout main]
+    H --> I[git merge Info]
+    I --> J[Resuelve conflictos si aparecen]
+    J --> K[git log --graph]
+    K --> L[Fin]
+
+    %% Colores de fondo
+    style A fill:#f0f0f0,stroke:#333,stroke-width:2px
+    style B fill:#d3e6f1,stroke:#333,stroke-width:2px
+    style C fill:#f2d7d5,stroke:#333,stroke-width:2px
+    style D fill:#f9e79f,stroke:#333,stroke-width:2px
+    style E fill:#f7c1c0,stroke:#333,stroke-width:2px
+    style F fill:#c9daf8,stroke:#333,stroke-width:2px
+    style G fill:#d1f2eb,stroke:#333,stroke-width:2px
+    style H fill:#f2f4f4,stroke:#333,stroke-width:2px
+    style I fill:#f5b7b1,stroke:#333,stroke-width:2px
+    style J fill:#fffcf9,stroke:#333,stroke-width:2px
+    style K fill:#c7ecee,stroke:#333,stroke-width:2px
+    style L fill:#c7ecee,stroke:#333,stroke-width:2px
+```
 
 ## 4. 🦾⚔️ Retos
 
