@@ -263,8 +263,8 @@ sequenceDiagram
     participant "Remoto (GitHub)"
 
     %% Trabajo local
-    Repository ->> "Directorio de trabajo (Working Directory)": git checkout
-    "Directorio de trabajo (Working Directory)" ->> "Staging area (Index)": git add
+    Repository ->> "Directorio de trabajo (Working Directory)": git checkout <branch>
+    "Directorio de trabajo (Working Directory)" ->> "Staging area (Index)": git add <archivos>
     "Staging area (Index)" ->> "Repositorio (Local)": git commit -m "mensaje"
 
     %% Trabajo remoto
@@ -385,18 +385,18 @@ flowchart LR
     K --> L[Fin]
 
     %% Colores de fondo
-    style A fill:#f0f0f0,stroke:#333,stroke-width:2px
-    style B fill:#d3e6f1,stroke:#333,stroke-width:2px
-    style C fill:#f2d7d5,stroke:#333,stroke-width:2px
-    style D fill:#f9e79f,stroke:#333,stroke-width:2px
-    style E fill:#f7c1c0,stroke:#333,stroke-width:2px
-    style F fill:#c9daf8,stroke:#333,stroke-width:2px
-    style G fill:#d1f2eb,stroke:#333,stroke-width:2px
-    style H fill:#f2f4f4,stroke:#333,stroke-width:2px
-    style I fill:#f5b7b1,stroke:#333,stroke-width:2px
-    style J fill:#fffcf9,stroke:#333,stroke-width:2px
-    style K fill:#c7ecee,stroke:#333,stroke-width:2px
-    style L fill:#c7ecee,stroke:#333,stroke-width:2px
+    style A fill:#f0f0f0,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style B fill:#d3e6f1,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style C fill:#f2d7d5,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style D fill:#f9e79f,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style E fill:#f7c1c0,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style F fill:#c9daf8,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style G fill:#d1f2eb,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style H fill:#f2f4f4,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style I fill:#f5b7b1,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style J fill:#fffcf9,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style K fill:#c7ecee,stroke:#333,stroke-width:2px,color:#6e6e6e
+    style L fill:#c7ecee,stroke:#333,stroke-width:2px,color:#6e6e6e
 ```
 
 ## 4. 🦾⚔️ Retos
