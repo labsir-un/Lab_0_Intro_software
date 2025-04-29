@@ -32,13 +32,15 @@
   - [2.1. 🔭🛠️ Equipos](#21-️-equipos)
   - [2.2. 🖥️💾 Software](#22-️-software)
 - [3. 🔧➡️🚀 Procedimiento](#3-️-procedimiento)
-  - [Estructura de ROS](#estructura-de-ros)
+  - [🏗🌐🤖Estructura de ROS](#estructura-de-ros)
+  - [Uso de nodos](#uso-de-nodos)
   - [Uso de parametros](#uso-de-parametros)
   - [Comunicación entre nodos](#comunicación-entre-nodos)
   - [Crear un Workspace y un paquete en ROS](#crear-un-workspace-y-un-paquete-en-ros)
   - [Compilación de archivos en C++](#compilación-de-archivos-en-c)
   - [Compilación de archivos en python](#compilación-de-archivos-en-python)
   - [Crear un archivo lanzador](#crear-un-archivo-lanzador)
+- [4. 📚🗄️ Referencias](#4-️-referencias)
 </details>
 
 ---
@@ -77,7 +79,69 @@ En esta guía se introducirá el framework ROS, presentando sus principales cara
 
 ## 3. 🔧➡️🚀 Procedimiento
 
-### Estructura de ROS
+### 🏗🌐🤖Estructura de ROS
+
+ROS (Robot Operating System) es un middleware para robótica que organiza la comunicación entre programas llamados nodos, los cuales realizan tareas específicas. Estos nodos se comunican enviando y recibiendo mensajes a través de tópicos en un esquema de publicador-suscriptor. Para interacciones más controladas, ROS ofrece servicios (solicitud-respuesta) y acciones (para tareas prolongadas que requieren feedback o cancelación). Un Master coordina a los nodos permitiendo que se encuentren entre sí (en ROS1), mientras que los datos pueden grabarse y reproducirse usando bags. Los proyectos se organizan en workspaces que contienen packages, y el arranque de múltiples nodos puede automatizarse con launch files. Esta estructura facilita el desarrollo de sistemas robóticos modulares, escalables y reutilizables.
+
+<div align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*-cVR9se6P_qMxnhazXy88w.jpeg" alt="Estructura_ROS" width="600px">
+</div>
+
+Un paquete es la unidad básica de organización del software: agrupa nodos, scripts, bibliotecas, mensajes, servicios, acciones y archivos de configuración relacionados. Cada paquete tiene una carpeta propia que contiene al menos un archivo `package.xml` (que describe el paquete y sus dependencias) y un `CMakeLists.txt` (que define cómo compilarlo). Dentro del paquete, el contenido se suele organizar en carpetas estándar como `src/` (código fuente), `scripts/` (scripts ejecutables en Python), `msg/` (definiciones de mensajes personalizados), `srv/` (definiciones de servicios), `action/` (definiciones de acciones), `launch/` (archivos de lanzamiento) y `config/` (archivos de configuración como parámetros). Los paquetes se agrupan dentro de un workspace (área de trabajo) que generalmente sigue la estructura `~/catkin_ws/src/` en ROS1, donde `catkin_ws` es el workspace y `src` contiene todos los paquetes. Esta organización modular permite desarrollar, compartir y mantener el software de forma ordenada y eficiente.
+
+```mermaid
+flowchart TD
+    A["Workspace (e.g., catkin_ws)"] --> B[src/]
+    B --> C["Stack (opcional)"]
+    C --> D[Package 1]
+    C --> E[Package 2]
+    B --> F[Package 3]
+
+    D --> D1[package.xml]
+    D --> D2[CMakeLists.txt]
+    D --> D3["src/ (código fuente)"]
+    D --> D4["scripts/ (scripts Python)"]
+    D --> D5["msg/ (mensajes personalizados)"]
+    D --> D6["srv/ (servicios personalizados)"]
+    D --> D7["action/ (acciones)"]
+    D --> D8["launch/ (archivos de lanzamiento)"]
+    D --> D9["config/ (archivos de configuración)"]
+
+    E --> E1[package.xml]
+    E --> E2[CMakeLists.txt]
+    E --> E3[src/, scripts/, msg/, etc.]
+
+    F --> F1[package.xml]
+    F --> F2[CMakeLists.txt]
+    F --> F3[src/, scripts/, msg/, etc.]
+
+```
+
+1. Abre una nueva terminal e inicia ros.
+
+```sh
+roscore
+```
+
+### Uso de nodos
+
+En ROS, los nodos son programas individuales que realizan tareas específicas y se comunican entre sí mediante tópicos, servicios o acciones; cada nodo debe registrarse con el rosmaster para poder intercambiar información.
+
+`rosrun` permite ejecutar un nodo específico de un paquete sin necesidad de escribir su ruta completa.
+
+1. Abra otra terminal y lance un nodo de `turtlesim` el cual es un simulado de una torutga en un plano. Con el nodo `turtlesim_node` genera la ventana donde aparece la tortuga y donde se puede simular su movimiento.
+
+```sh
+rosrun turtlesim turtlesim_node
+```
+
+2. Abra una tercera terminal y lance un nodo `turtle_teleop_key` el cual permite teleoperar la tortuga mediante las teclas del teclado enviando comandos de velocidad lineal y angular al simulador para mover la tortuga.
+
+```sh
+rosrun turtlesim turtle_teleop_key
+```
+
+, lo que abre una ventana donde una tortuga se mueve en respuesta a comandos.
 
 ### Uso de parametros
 
@@ -90,3 +154,8 @@ En esta guía se introducirá el framework ROS, presentando sus principales cara
 ### Compilación de archivos en python
 
 ### Crear un archivo lanzador
+
+
+## 4. 📚🗄️ Referencias
+
+**[1]** L. Cruz, "ROS (Robot Operating System) — Fundamentos", 2019. [Online]. Available: [https://medium.com/@robtech.impaciente/ros-robot-operating-system-fundamentos-e92478c26e02](https://medium.com/@robtech.impaciente/ros-robot-operating-system-fundamentos-e92478c26e02)
