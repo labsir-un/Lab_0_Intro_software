@@ -319,8 +319,6 @@ Un workspace es una carpeta de trabajo donde el usuario puede desarrollar, compi
 
 ```sh
 mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws
-catkin_make
 ```
 
 2. Ingresa en el directorio y con `catkin_make` se compila todo el Workspace.
@@ -342,7 +340,7 @@ Con esto se tendran tres carpetas en el directorio las cuales son:
 
 Un paquete en ROS es la unidad básica de organización del software, y contiene todo lo necesario para realizar una tarea específica, como nodos, bibliotecas, scripts, archivos de configuración, mensajes personalizados y archivos de lanzamiento (launch). Cada paquete debe tener al menos dos archivos obligatorios: package.xml (que define las dependencias y metadatos del paquete) y CMakeLists.txt (que especifica cómo se debe compilar e instalar el paquete con catkin).
 
-1. Ubícate en la carpeta `src` del workspace.
+1. Ubíquese en la carpeta `src` del workspace.
 
 ```sh
 cd ~/catkin_ws/src
@@ -368,21 +366,16 @@ mkdir scripts && cd scripts
 chmod +x Hello.py
 ```
 
-6. Cambie al directorio principal del workspace y compile el workspace.
+6. Cambie al directorio principal del workspace y cargue la configuración del entorno de su workspace para que ROS pueda encontrar los paquetes, nodos y configuraciones que has creado.
 
 ```sh
 cd ~/catkin_ws
-catkin_make
-```
-
-7. Cargue la configuración del entorno de su workspace para que ROS pueda encontrar los paquetes, nodos y configuraciones que has creado o compilado.
-
-```sh
 source devel/setup.bash
 ```
 
+
 >[!IMPORTANT]
->Cada vez que se modifiquen archivos dentro de un paquete o se modifique el workspace es necesario compilar y cargar la configuración.
+>Cada vez que se modifiquen archivos dentro de un paquete o se modifique el workspace es necesario compilar y cargar la configuración. Excepto con ejecutables de python es solo necesario cargar la configuración.
 >```sh
 >#Compila todo el workspace
 >catkin_make
@@ -402,7 +395,7 @@ source devel/setup.bash
 >echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 >```
 
-8. Corre el nodo `talker` creado con el archivo `Hello.py`.
+7. Corra el nodo `talker` creado con el archivo `Hello.py`.
 
 ```sh
 rosrun hello_word Hello.py
@@ -414,7 +407,7 @@ Los lenguajes de programación principales son C++ y Python, siendo C++ ideal pa
 
 Dado que C++ y Python son los lenguajes principales en ROS, se explicará cómo utilizarlos dentro de los paquetes.
 
-1. En el workspace creado clone el paquete `laboratorio_2` del respositorio del [laboratorio 2](https://github.com/labsir-un/FRM_Lab_2_Sensores_y_ROS) para esto use los siguientes comandos:
+1. En el workspace creado clone el paquete `laboratorio_2` del respositorio del [laboratorio 2](https://github.com/labsir-un/FRM_Lab_2_Sensores_y_ROS) en la carpeta `/src`.
 
 ```sh
 cd ~/catkin_ws/src
@@ -449,7 +442,7 @@ El paquete tiene los siguientes directorios y archivos:
 
 ##### 4.8.1.1. 🏗️📄 Estructura de archivos de código fuente
 
-1. En el paquete `laboratorio_2` abra el directorio `/src` y vea los archivos que estan en este. En este se encuentran tres archivos de C++ (`hello.cpp`, `pubvel.cpp` y ` subpose.cpp`) y un directorio (`laboratorio_2`).
+1. En el paquete `laboratorio_2` ubíquese en el directorio `/src` y vea los archivos que estan en este. En este se encuentran tres archivos de C++ (`hello.cpp`, `pubvel.cpp` y ` subpose.cpp`) y un directorio (`laboratorio_2`).
 
 ```sh
 cd ~/catkin_ws/src/laboratorio_2/src
@@ -573,7 +566,7 @@ void poseMessageReceived(const turtlesim::Pose& msg)
 
 Para compilar correctamente se debe configurar correctamente la información de los archivos `CMakeList.txt` y `package.xml` para indicarle a `CMake` como se debe compilar el paquete y definir la configuración y metadatos del paquete.
 
-1. Cambie al directorio raiz del paquete y abra con un editor de codigo el archivo `CMakeList.txt`.
+1. Ubíquese en el directorio raiz del paquete y abra con un editor de codigo el archivo `CMakeList.txt`.
 
 ```sh
 cd ~/catkin_ws/src/laboratorio_2/
@@ -664,7 +657,7 @@ rosrun laboratorio_2 pubvel
 
 Los scripts ejecutables de Python se colocan comúnmente en la carpeta scripts/ y se ejecutan directamente porque Python es un lenguaje interpretado, lo que significa que no necesita ser compilado como C++. Por eso, estos archivos deben tener un encabezado especial conocido como shebang (`#!/usr/bin/env python`) para que el sistema sepa usar el intérprete de Python, y además requieren permiso de ejecución (`chmod +x`). A diferencia de los nodos en C++, los scripts de Python no se declaran en `CMakeLists.txt` con `add_executable`, ya que no generan binarios, sino que se ejecutan tal como están con `rosrun` o desde un archivo `.launch`.
 
-1. Dar permisos de ejecución a los scripts de python.
+1. De permisos de ejecución a los scripts de python.
 
 ```sh
 #Da permisos de ejecución a todos los archivos .py 
@@ -685,7 +678,7 @@ source devel/setup.bash
 
 En caso que se desee trabajar con módulos personalizados es necesario instalarlos para que los scripts que los usen puedan hacer la importación de ellos adecuadamente.
 
-1. En el paquete `laboratorio_2` abra el directorio raiz y vea los archivos que estan en este. Dentro de estos esta un archivo que es el `setup.py` el cual configura que se utiliza para empaquetar e instalar el código Python.
+1. En el paquete `laboratorio_2` ubíquese en el directorio raiz y vea los archivos que estan en este. Dentro de estos esta un archivo que es el `setup.py` el cual configura que se utiliza para empaquetar e instalar el código Python.
 
 ```sh
 cd ~/catkin_ws/src/laboratorio_2/src
@@ -718,7 +711,7 @@ setup_args = generate_distutils_setup(
 
 6. Por ultimo `setup(**setup_args)` ejecuta el proceso de instalación utilizando los parámetros generados previamente por `generate_distutils_setup`.
 
-7. Abra el directorio `src/laboratorio_2` y vea los archivos que estan en este. Nótese que se tiene un archivo `_init_.py` que le indica a python quye es un modulo y 2 archivos (`background_changer.py` y `turtle_manager.py`) que son los archivos fuente.
+7. Ubíquese en el directorio `src/laboratorio_2` y vea los archivos que estan en este. Nótese que se tiene un archivo `_init_.py` que le indica a python quye es un modulo y 2 archivos (`background_changer.py` y `turtle_manager.py`) que son los archivos fuente.
 
 >[!IMPORTANT]
 >Nótese que el modulo principal tiene el mismo nombre que el paquete esto es necesario para que ROS pueda identificar los modulos facilmente, aunque no estrictamente necesaria se recomienda hacerlo.
@@ -728,7 +721,7 @@ cd ~/catkin_ws/src/laboratorio_2/src/laboratorio_2
 ls -l
 ```
 
-8. Cambie al directorio de scripts del paquete.
+8. Ubíquese en el directorio de scripts del paquete.
 
 ```sh
 cd ~/pruebas_ws/src/laboratorio_2/scripts
@@ -748,7 +741,7 @@ from laboratorio_2.background_changer import BackgroundChanger
 from laboratorio_2.turtle_manager import TurtleManager
 ```
 
-11. Cambie al directorio raiz del paquete y abra con un editor de codigo el archivo `CMakeList.txt`.
+11. Ubíquese en el directorio raiz del paquete y abra con un editor de codigo el archivo `CMakeList.txt`.
 
 ```sh
 cd ~/catkin_ws/src/laboratorio_2/
@@ -832,7 +825,7 @@ Un archivo launch se utiliza para ejecutar varios nodos simultáneamente y, a su
 
 Un archivo launch es un archivo XML que describe cómo iniciar uno o más nodos, establecer parámetros, incluir otros archivos de lanzamiento y definir configuraciones de ejecución, facilitando el manejo coordinado de múltiples procesos dentro de un sistema robótico.
 
-1. Cambie al directorio `/launch` del paquete y abra con un editor de codigo el archivo `p.launch`.
+1. Ubíquese en el directorio `/launch` del paquete y abra con un editor de codigo el archivo `p.launch`.
 
 ```sh
 cd ~/pruebas_ws/src/laboratorio_2/launch
