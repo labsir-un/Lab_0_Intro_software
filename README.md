@@ -138,24 +138,24 @@ Para conocer el proceso de instalación dirigase a:
 <details>
   <summary>🛤️🚗🤖📡 Simulacion de robots moviles</summary>
 
-- [✍🏼🤖 Dibujar robot circular 2D](./Archivos/Matlab/scripts/Simulation_Robot_Moviles/dibrob.m)
+- [✍🏼🤖 Dibujar robot circular 2D](./Archivos/Matlab/scripts/Simulacion_Robot_Moviles/dibrob.m)
 
-- [✍🏼🤖🔴 Dibujar robot circular 2D dado un radio](./Archivos/Matlab/scripts/Simulation_Robot_Moviles/dibrobr.m)
+- [✍🏼🤖🔴 Dibujar robot circular 2D dado un radio](./Archivos/Matlab/scripts/Simulacion_Robot_Moviles/dibrobr.m)
 
-- [✍🏼🚗📍🧭Dibujar vehículos en posiciones y orientaciones](./Archivos/Matlab/scripts/Simulation_Robot_Moviles/dibveh1.m)
+- [✍🏼🚗📍🧭Dibujar vehículos en posiciones y orientaciones](./Archivos/Matlab/scripts/Simulacion_Robot_Moviles/dibveh1.m)
 
 <div align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmRnaW44ZGVtM3VoNTB2eHBpa3V1eHRoMmxqM3M1MDg0NTh3M2M5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SJojxpkk5PWYSGfIdi/giphy.gif" alt="dibrob" width="400px">
 </div>
 
-- [✍🏼🚗🚙📍🧭 Dibujar vehículos con diferentes radios en posiciones y orientaciones dada](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/dibveh2.m)
+- [✍🏼🚗🚙📍🧭 Dibujar vehículos con diferentes radios en posiciones y orientaciones dada](./Archivos/Matlab/scripts/Simulacion_Robot_Moviles/dibveh2.m)
 
 <div align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjR2dmE2anJucG5kbmNicDRoYm1zMXhlaXhiNXlzdDY5ZDJyMmdzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/COBJzcVXEEdc4ZPoTv/giphy.gif" alt="dibrobr" width="400px">
 </div>
 
-- [∫📈🧮 Metodos de integración](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/intgr.m)
-- [🏎️💨 Movimiento cinemático de un móvil en un plano](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/kinetbas.m)
+- [∫📈🧮 Metodos de integración](./Archivos/Matlab/scripts/Simulacion_Robot_Moviles/intgr.m)
+- [🏎️💨 Movimiento cinemático de un móvil en un plano](./Archivos/Matlab/scripts/Simulacion_Robot_Moviles/kinetbas.m)
 
 <div align="center" style="display: flex; gap: 20px; justify-content: center;">
   <a>
@@ -176,7 +176,7 @@ Para conocer el proceso de instalación dirigase a:
 </div>
 
 
-- [🏎️💨📈 Movimiento cinemático de un móvil perfiles de velocidad](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/kinetbas2.m)
+- [🏎️💨📈 Movimiento cinemático de un móvil perfiles de velocidad](./Archivos/Matlab/scripts/Simulacion_Robot_Moviles/kinetbas2.m)
 
 
 <div align="center" style="display: flex; gap: 20px; justify-content: center;">
@@ -188,7 +188,7 @@ Para conocer el proceso de instalación dirigase a:
   </a>
 </div>
 
-- [📍➡️📍 Simulacion de movimiento](./Archivos/Matlab/scripts/Simulation%20Robot%20Moviles/sim1.m)
+- [📍➡️📍 Simulacion de movimiento](./Archivos/Matlab/scripts/Simulacion_Robot_Moviles/sim1.m)
 </details>
 
 ### 4.3. 🤖 Toolbox de Peter Corke
@@ -208,13 +208,13 @@ Para conocer el proceso de instalación dirigase a:
 <details>
   <summary>✍🏼🦾📚 Ejemplos de uso del Toolbox</summary>
 
-- [🏹Vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplo_Clase_0_revisado.m)
-- [➕✖️➖🏹 Operaciones con vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplo_Clase_1_revisado.m)
-- [🔄️🏹 Rotaciones de vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplo_Clase_2_revisado.m)
-- [✍🏼📄 Modelo para hacer informes](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplo_Publish_revisado.mlx)
-- [➕🏹 Ejemplos de operaciones con vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplos_Matlab_2_revisado.m)
-- [🦾🔄️🏹 Ejercicios de rotación de vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplos_Matlab_3.m)
-- [🪢🔄️🏹 Transformacion de vectores](./Archivos/Toolbox_RCV/scripts/Matlab%20General%20RVC/Ejemplos_Matlab_4.m)
+- [🏹Vectores](./Archivos/Toolbox_RCV/scripts/Matlab_General_RVC/Ejemplo_Clase_0_revisado.m)
+- [➕✖️➖🏹 Operaciones con vectores](./Archivos/Toolbox_RCV/scripts/Matlab_General_RVC/Ejemplo_Clase_1_revisado.m)
+- [🔄️🏹 Rotaciones de vectores](./Archivos/Toolbox_RCV/scripts/Matlab_General_RVC/Ejemplo_Clase_2_revisado.m)
+- [✍🏼📄 Modelo para hacer informes](./Archivos/Toolbox_RCV/scripts/Matlab_General_RVC/Ejemplo_Publish_revisado.mlx)
+- [➕🏹 Ejemplos de operaciones con vectores](./Archivos/Toolbox_RCV/scripts/Matlab_General_RVC/Ejemplos_Matlab_2_revisado.m)
+- [🦾🔄️🏹 Ejercicios de rotación de vectores](./Archivos/Toolbox_RCV/scripts/Matlab_General_RVC/Ejemplos_Matlab_3.m)
+- [🪢🔄️🏹 Transformacion de vectores](./Archivos/Toolbox_RCV/scripts/Matlab_General_RVC/Ejemplos_Matlab_4.m)
 
 </details>
 
