@@ -134,6 +134,11 @@ flowchart TD
 roscore
 ```
 
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXp3aDg4dWx1ZDQ0bzZ6YW9zYW90MmJvaWRpYThydnJ3dDBsOHo0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WKVVQZsDTSEK0mksmn/giphy.gif" alt="roscore" width="600px">
+</div>
+
+
 ### 4.2. 🔌🔄🌐 Inicialización de nodos
 
 En ROS, los nodos son programas individuales que realizan tareas específicas y se comunican entre sí mediante tópicos, servicios o acciones; cada nodo debe registrarse con el rosmaster para poder intercambiar información.
@@ -146,20 +151,39 @@ En ROS, los nodos son programas individuales que realizan tareas específicas y 
 rosrun turtlesim turtlesim_node
 ```
 
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXJicGhmaDY0M2h3aHZsb3g2cnZndHpkbnpleXB4dzRxMTl3emFzdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Zek1O0FngleZOJcIF6/giphy.gif" alt="rosrun_turtlesim_node" width="600px">
+</div>
+
 2. Abra una tercera terminal y lance un nodo `turtle_teleop_key` el cual permite teleoperar la tortuga mediante las teclas del teclado enviando comandos de velocidad lineal y angular al simulador para mover la tortuga.
 
 ```sh
 rosrun turtlesim turtle_teleop_key
 ```
 
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3YxaTdpM3c3N3VoMDFicW5zazJoYTMxc280eG1jeThwbmVhcndvYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UEKZAf1GFmAE1LzFsZ/giphy.gif" alt="rosrun_turtle_teleop_key" width="600px">
+</div>
+
 3. Crear varias instancias del `turtlesim_node` y `turtle_teleop_key` es necesario cargarlas con otro nombre en diferentes terminales agregando el argumento `__name :=<nombre_nodo>`
 
 ```sh
 rosrun turtlesim turtlesim_node __name:=turtle2
 ```
+
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTR0eTc3cGt1azBrcmNqNTFmMGp4OWNyMmFpNnI2am5jMm4xNG9obyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t4pOcyMQQCnzJ3bmy1/giphy.gif" alt="rosrun_turtlesim_node2" width="600px">
+</div>
+
+
 ```sh
 rosrun turtlesim turtle_teleop_key __name:=teleop2
 ```
+
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzlzNnFrOTUweWhmYW5hNWJ5azJrZWlpNDh2ZzlubjF3OTA1OWR0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/68cCOYqWlN9p1qTX1y/giphy.gif" alt="rosrun_turtle_teleop_key2" width="600px">
+</div>
+
 
 4. Para ver toda la información de un nodo se usa `rosnode info <nombre_nodo>`. Con esta intrucción pueden ver todas las comunicaciones, conecciones y servicios asociados al nodo.
 
@@ -191,6 +215,10 @@ flowchart LR
 rostopic type /turtle1/cmd_vel
 ```
 
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExajFnMDk2OGd3ZmJhYXVwM3RneHMwdTR4dTFjZmFuZjM1ZTY2d3FrYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ICx31SKx75wAILf5n/giphy.gif" alt="rostopic_type" width="600px">
+</div>
+
 4. Una vez que conoces el tipo de mensaje de un tópico, el comando `rosmsg show <tipo_mensaje>` te permite ver la estructura del mensaje (es decir, cómo están organizados los campos dentro del mensaje). Este comando es útil para entender qué campos puedes utilizar y cómo están organizados los datos.
 
 ```sh
@@ -199,6 +227,9 @@ rostopic type /turtle1/cmd_vel
 rosmsg show geometry_msgs/Twist
 ```
 
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmU2ZHlvYWZ3Y2plbWh5d2Z5dXc0aWdteWFjbjU3ZmgzMWF0djlzeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y3HZTNWwCln7Y5DGbY/giphy.gif" alt="rosmsg_show" width="600px">
+</div>
 
 5. Para observar en tiempo real los mensajes publicados en un tópico, se puede utilizar un "sniffer" mediante el comando `rostopic echo <nombre_tópico>`. 
 
@@ -207,7 +238,11 @@ rosmsg show geometry_msgs/Twist
 rostopic echo /turtle1/pose
 ```
 
-5. Para inyectar datos manualmente se usa el comando `rostopic pub -r <tasa_publicación_Hz> <nombre_tópico> <tipo_mensaje> <contenido_mensaje>`.
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3M5ZW1wbndlbGh1bDJ2bDBheXRwdHR3N3Zwdm54c3NuOGhwb3ZuayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EpLgJ547jVDYJsXWVZ/giphy.gif" alt="rostopic_echo" width="600px">
+</div>
+
+6. Para inyectar datos manualmente se usa el comando `rostopic pub -r <tasa_publicación_Hz> <nombre_tópico> <tipo_mensaje> <contenido_mensaje>`.
 
 ```sh
 #Publica con una tasa de 1 Hz por defecto 
@@ -221,6 +256,10 @@ angular:
   z: 1.8"
 ```
 
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenE0bjlnZmR5azdyNXZ6N2kzYWd0cDZ5eWM5bnQyNHdmajZ4bGZzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S1CBBF7bbu0laihrcL/giphy.gif" alt="rostopic_pub_1Hz" width="600px">
+</div>
+
 ```sh
 #Publica con una tasa de 2 Hz
 rostopic pub -r 2 /turtle1/cmd_vel geometry_msgs/Twist "linear:
@@ -232,6 +271,10 @@ angular:
   y: 0.0
   z: 1.8"
 ```
+
+<div align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWRxMXB4bnUwMzBwbzJndThzOXY2N2cwcTJvYmNwMHQ3ZTFlZDJuMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CU7HgE8gYp82MlwPjA/giphy.gif" alt="rostopic_pub_2Hz" width="600px">
+</div>
 
 ```sh
 #Publica una unica vez el mensaje
@@ -245,6 +288,10 @@ angular:
   z: 1.8"
 ```
 
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzM0dXBodGE3b2VsdHc4emt6bm95YnIxaTdlYWRsazljMzA2OXI0eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8W9F1sBaSmm31vidgd/giphy.gif" alt="rostopic_pub_1" width="600px">
+</div>
+
 ### 4.4. ⚙️🧮📝 Uso de parámetros
 
 Los parámetros permiten almacenar y compartir configuraciones entre nodos a través del servidor de parámetros, facilitando ajustes como constantes, rutas o modos de operación sin modificar el código.
@@ -255,6 +302,10 @@ Los parámetros permiten almacenar y compartir configuraciones entre nodos a tra
 rosparam list
 ```
 
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmc2am45MGQ2d2RjMTd6ZXAwM2RibmQ4aXRneWt2NXJtM3B3NW5pYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZW6erQBJLLYnUYXr8R/giphy.gif" alt="rosparam_list" width="600px">
+</div>
+
 2. Para la obtener el valor de un parametro se usa el comando `rosparam get <nombre_parametro>`.
 
 ```sh
@@ -262,11 +313,19 @@ rosparam list
 rosparam get /rosdistro
 ```
 
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnVoeHlkNTBlaHV2NzJobXA4eGZoaWUzOGV4dHFmb3Vodzc5enl2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JVt1sUFqblDhkClPSl/giphy.gif" alt="rosparam_get_distro" width="600px">
+</div>
+
 ```sh
 #Entrega el valor en bits del componente azul
 #para el color de fondo de la tortuga
 rosparam get /turtlesim/background_b
 ```
+
+<div align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmVmcXdoMzcwd3NxajA5NG0zanNqem90OHE0c2RrMHBpMzJobWE5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EHi6RaZJyWrZOJbWal/giphy.gif" alt="rosparam_get_turtlesim_background_b" width="600px">
+</div>
 
 3. Para inyectar datos a un parametro se usa `rosparam set <nombre_parametro> <valor_parametro>`.
 
@@ -279,6 +338,10 @@ rosparam set /turtlesim/background_g 0
 rosparam set /turtlesim/background_b 0
 ```
 
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJua29lazBxd3J3d2Myc3E0dDZucXNpYm9lazFwamlmN2QwZmQ0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ehd5vDxvbvNzTU0lnk/giphy.gif" alt="rosparam_set_parametros" width="600px">
+</div>
+
 ### 4.5. 🛠️🔄⚙️ Uso de servicios
 
 Los servicios en permiten la comunicación síncrona entre nodos, donde un nodo solicita un servicio y espera una respuesta. Estos son útiles para tareas que requieren una interacción directa y un retorno de datos, como la ejecución de cálculos o la obtención de información específica.
@@ -289,12 +352,20 @@ Los servicios en permiten la comunicación síncrona entre nodos, donde un nodo 
 rosservice list
 ```
 
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnFobDhjMDN0bzF6bTB6cG1qaTMzZzN6dTN1NGdlNmt3ZXI3OGc0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YlyNT7mHwvuw4c5Z5Z/giphy.gif" alt="rosservice_list" width="600px">
+</div>
+
 2. Para usar un servicio se usa lo que es un llamado para esto se usa `rosservice call <nombre_servicio>`.
 
 ```sh
 #Hace el llamado al servicio que limpia el recorrido de la tortuga
 rosservice call /clear
 ```
+
+<div align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTBqM2ZsdW5xeWdmM3A1MTlubTZwbmFtaG94MTE4MDNoOW1vYXVvYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GnQMnCp8eKMn8c17GH/giphy.gif" alt="rosservice_call" width="600px">
+</div>
 
 3. Para conocer toda la información de un servicio se usa el comando ` rosservice info <nombre_servicio>`.
 
@@ -303,6 +374,10 @@ rosservice call /clear
 rosservice info /spawn
 ```
 
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmg5Nm8wNmJ5NWJtdDk5MjRhbmVidGY5NTEzMG1hOW84MzE2emt3YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/00TmSrGDLMzFNx5TXR/giphy.gif" alt="rosservice_info" width="600px">
+</div>
+
 4. Para ver que tipo de datos son los argumentos de un servicio se usa la convinancion de de comandos `rosservice type <nombre_servicio> | rossrv show`.
 
 ```sh
@@ -310,6 +385,10 @@ rosservice info /spawn
 #Despues del `---` muestra los argumentos opcionales
 rosservice type /spawn | rossrv show
 ```
+
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHR2NGNiN3NhdGdtMzd6amE0cW92bGcyMmNkZWpydWN3cXF5Z2p1biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7dhzqIuFW5stpKCJlU/giphy.gif" alt="rosservice_type_spawn_rossrv_show" width="600px">
+</div>
 
 ### 4.6. 🏗️🧱🗂️ Crear un Workspace para ROS
 
@@ -321,12 +400,21 @@ Un workspace es una carpeta de trabajo donde el usuario puede desarrollar, compi
 mkdir -p ~/catkin_ws/src
 ```
 
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW54M3NrYng5OWNiMDF5cWZ4aDVvOWc5eXJzNTl1cGcxZG85N2l2aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FYmOB9haVDbAfSVCrD/giphy.gif" alt="catkin_ws" width="600px">
+</div>
+
+
 2. Ingresa en el directorio y con `catkin_make` se compila todo el Workspace.
 
 ```sh
 cd ~/catkin_ws
 catkin_make
 ```
+
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG5wOWt1ZjAyZmQ5Y2JzNHdiMTNibmswN3VxdGZ5Z3Rkem95aXdudiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2txN7RlOL4BZ5sD4nV/giphy.gif" alt="catkin_ws_compilacion" width="600px">
+</div>
 
 Con esto se tendran tres carpetas en el directorio las cuales son:
 
@@ -352,6 +440,10 @@ cd ~/catkin_ws/src
 catkin_create_pkg hello_word
 ```
 
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2toY3ZrdTY0ZWprdXc5YjhpdDVha2l0dGlxczEzMjhhbG9oaW5keiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e6GJKKv6vixIcASfeo/giphy.gif" alt="crear_paquete" width="600px">
+</div>
+
 3. Dentro del directorio principal del paquete cree un directorio `scripts` e ingrese al directorio.
 
 ```sh
@@ -366,13 +458,16 @@ mkdir scripts && cd scripts
 chmod +x Hello.py
 ```
 
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm91amF3YnBob2loN203dWR2Y2ZnemI1MnFlb2FkZjFzZXQyMTFrZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nwHd627KOqxuMV7S4R/giphy.gif" alt="permisos_ejecutable" width="600px">
+</div>
+
 6. Cambie al directorio principal del workspace y cargue la configuración del entorno de su workspace para que ROS pueda encontrar los paquetes, nodos y configuraciones que has creado.
 
 ```sh
 cd ~/catkin_ws
 source devel/setup.bash
 ```
-
 
 >[!IMPORTANT]
 >Cada vez que se modifiquen archivos dentro de un paquete o se modifique el workspace es necesario compilar y cargar la configuración. Excepto con ejecutables de python es solo necesario cargar la configuración.
@@ -400,6 +495,10 @@ source devel/setup.bash
 ```sh
 rosrun hello_word Hello.py
 ``` 
+
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnI4aW53MzBla2s0YjY0YnY4cmp6aDBjY3hreWhwZXhweGxzMWh6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0fyThFmJQP1U3TrMJb/giphy.gif" alt="rosrun_Hello.py" width="600px">
+</div>
 
 ### 4.8. 🗣️💬🖥️ Lenguajes de programación con ROS
 
@@ -639,17 +738,29 @@ code package.xml
 rosrun laboratorio_2 hello
 ```
 
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDE2amRsc2J1bTFkdzlrYjB2aTQ2dG1rZ2JlczU1N2NvYTVlMWF4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4SsTuvVPQefypYlSHE/giphy.gif" alt="rosrun_hello" width="600px">
+</div>
+
 2. Ejecute el ejecutable `subpose`.
 
 ```sh
 rosrun laboratorio_2 subpose
 ```
 
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjF5ajJwMjlnZmhtdWw2Z2NlZmljdnZmeG42eDEwMmZheXkxdmx1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KcpO7ecHxW9wCaevsc/giphy.gif" alt="rosrun_subpose" width="600px">
+</div>
+
 3. Abra una nueva terminal y ejecute el ejecutable `pubvel`
 
 ```sh
 rosrun laboratorio_2 pubvel
 ```
+
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDVjOTdleGlmc2cyMDcybnZnZGkybzZmZ3V6MWI3MDU1ZjQwb2x4diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/m313NcNeZkKOjIetBO/giphy.gif" alt="rosrun_pubvel" width="600px">
+</div>
 
 #### 4.8.2. 📄🐍 Trabajando con archivos en python
 
@@ -804,11 +915,19 @@ code package.xml
 rosrun laboratorio_2 pysubpose.py
 ```
 
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGIwMzd0YTE5N2wzNjQzb2J3MG40bzY3OXRnMmV2YzkxYmh6cGE0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dh6Oylp2jPRDL84bBT/giphy.gif" alt="rosrun_pysubpose" width="600px">
+</div>
+
 2. Abra una nueva terminal y ejecute el ejecutable `pubvel`
 
 ```sh
 rosrun laboratorio_2 pubvel
 ```
+
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDk0dXk4bHVqc2I5dTk5dmFkZ3Zhc3FjZnhpaW94OXZsY2N2ejdrNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JtwstHhyeGLGqBVZS5/giphy.gif" alt="rosrun_pubvel_python" width="600px">
+</div>
 
 >[!NOTE]
 >Note que el nodo pubvel esta en C++ y pysubpose.py esta en python e interactuan sin problema
@@ -818,6 +937,25 @@ rosrun laboratorio_2 pubvel
 ```sh
 rosrun laboratorio_2 pypubvel.py
 ```
+
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2tpdHV2cXptcXJ1YjNsbzRsdDZzM284M2hobWtpMHE5ZWgzM2s1dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8jq5EGpFYxG98d9nmB/giphy.gif" alt="rosrun_pubvel_python" width="600px">
+</div>
+
+4. Detenga los ejecutables y ejecute el ejecutable `pycontroller.py`.
+
+```sh
+rosrun laboratorio_2 pycontroller.py
+```
+
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzB2OGF6OWdyMzVreHNpbnRvbWN4NXgxcWUzOHJqcmlmeG40ZmlydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7r1V8qoXrD23yueimy/giphy.gif" alt="rosrun_pycontroller_modulo_background" width="600px">
+</div>
+
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWVmZWw1YncwYnE2ZWxob29vbmdueDFvbjQ4aDJuNDVqcXI4ZzhraCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7m9WwIy6q9GYCEHTPT/giphy.gif" alt="rosrun_pycontroller_modulo_turtle" width="600px">
+</div>
+
 
 ### 4.9. 🛠️🚀📄 Crear un archivo lanzador
 
@@ -841,6 +979,12 @@ code p.launch
 roslaunch laboratorio_2 p.launch
 ```
 
+>[!TIP]
+>Con el `.launch` no es necesario tener el `roscore` corriendo.
+
+<div align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3I2M2Mzc3FiZDdxZHIwMjdrYmQxdGdsaDVzN3Q1azhpbjAyNDlhZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XojimVTou9goqsvIaP/giphy.gif" alt="rosrun_pycontroller_modulo_turtle" width="600px">
+</div>
 
 ## 5. ⌨️🌐🤖 Comandos de ros
 
