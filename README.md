@@ -251,6 +251,7 @@ Para conocer el proceso de intalación dirigase a:
 #### 4.5.2. 📂 Recursos
 
 [📚🌐🤖 Introducción a ROS](./Archivos/ROS/Recursos/Introduccion.md)
+[🌐🐢🤖 Uso del robot Kobuki mediante ROS](./Archivos/ROS/Recursos/Kuboki.md)
 
 
 ## 5. ⚙️🧰 Algunas herramientas utiles

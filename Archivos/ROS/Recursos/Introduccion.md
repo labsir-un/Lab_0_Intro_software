@@ -510,12 +510,11 @@ Dado que C++ y Python son los lenguajes principales en ROS, se explicará cómo 
 
 ```sh
 cd ~/catkin_ws/src
-mkdir laboratorio_2 && cd laboratorio_2
-git init
-git remote add origin https://github.com/labsir-un/FRM_Lab_2_Sensores_y_ROS.git
-git config core.sparsecheckout true
+git clone --filter=blob:none --no-checkout https://github.com/labsir-un/FRM_Lab_2_Sensores_y_ROS.git laboratorio_2
+cd laboratorio_2
+git sparse-checkout init
 git sparse-checkout set Recursos/ROS/laboratorio_2
-git pull origin main
+git checkout
 mv Recursos/ROS/laboratorio_2/* ./
 rm -r Recursos/
 ```
