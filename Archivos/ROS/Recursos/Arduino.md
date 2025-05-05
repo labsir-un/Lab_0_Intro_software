@@ -31,6 +31,7 @@
 - [1. 🧰 Herramientas Necesarias](#1--herramientas-necesarias)
   - [1.1. 🔭🛠️ Equipos](#11-️-equipos)
   - [1.2. 🖥️💾 Software](#12-️-software)
+- [4. 🔧➡️🚀 Procedimiento](#4-️-procedimiento)
 
 </details>
 
@@ -58,9 +59,7 @@ Esta combinación es ideal para proyectos educativos, prototipado rápido, y rob
 
  - Comprender cómo establecer una comunicación serial entre una PC y un dispositivo Arduino utilizando ROS (Robot Operating System).
 
- - Conocer el proceso de instalación de ROS y la adquisición de datos desde diferentes sensores a través de este entorno.
-
- - Programar rutinas en Python para la lectura, procesamiento y análisis de los datos provenientes de sensores.
+ - Manejo de datos de un sensor con un Arduino y ROS.
 
 ## 1. 🧰 Herramientas Necesarias
 
@@ -72,9 +71,11 @@ Esta combinación es ideal para proyectos educativos, prototipado rápido, y rob
 
 ### 1.2. 🖥️💾 Software
 
-  - Ubuntu 20.04
-  - Arduino IDE
-  - ROS
+  - Ubuntu 20.04.
+  - Arduino IDE.
+  - ROS Noetic.
+
+## 4. 🔧➡️🚀 Procedimiento
 
 
 

@@ -681,6 +681,12 @@ ssh-add ~/.ssh/id_rsa
 >Esto tambien hara que cada que se abra una terminal se deba dar la clave.
 
 ```sh
+#Crear comando personalizado para llamarlo
+echo "alias sshact='eval \"\$(ssh-agent -s)\" && ssh-add ~/.ssh/id_rsa'" >> ~/.bashrc
+```
+
+```sh
+#Forma automatica que se carga al abrir cada terminal
 echo 'eval "$(ssh-agent -s)"' >> ~/.bashrc
 echo 'ssh-add ~/.ssh/id_rsa' >> ~/.bashrc
 ```
