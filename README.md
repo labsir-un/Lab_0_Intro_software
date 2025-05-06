@@ -191,6 +191,15 @@ Para conocer el proceso de instalación dirigase a:
 - [📍➡️📍 Simulacion de movimiento](./Archivos/Matlab/scripts/Simulacion_Robot_Moviles/sim1.m)
 </details>
 
+<details>
+  <summary>🚗🤖🏁 Verificación de velocidades de robots moviles</summary>
+
+- [🚗🤖 Toma de datos de encoders Lego EV3](./Archivos/Matlab/scripts/Pruebas_velocidad_robot_movil/movimiento.m)
+- [📊 Procesamiento de datos de tracker](./Archivos/Matlab/scripts/Pruebas_velocidad_robot_movil/postprocesadotracker.m)
+- [🔈🤖 Uso sensor ultrasonido Lego EV3](./Archivos/Matlab/scripts/Sensores/ultrasoundev3.m)
+
+</details>
+
 ### 4.3. 🤖 Toolbox de Peter Corke
 
 El Toolbox de Peter Corke es una de las herramientas más utilizadas en el ámbito de la robótica, ya que proporciona una amplia colección de funciones para la simulación, análisis y control de robots en MATLAB. Este conjunto de herramientas permite a investigadores, estudiantes y profesionales modelar cinemática y dinámica de robots, realizar planificación de trayectorias, diseñar controladores y trabajar con visión por computadora. Su integración con MATLAB facilita la experimentación y validación de algoritmos antes de implementarlos en hardware real, convirtiéndolo en un recurso esencial para el desarrollo de aplicaciones robóticas.
