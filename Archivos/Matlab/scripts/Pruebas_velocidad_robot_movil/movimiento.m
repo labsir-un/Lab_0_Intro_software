@@ -15,8 +15,8 @@ vel_max_deg_s = vel_max * 360 / 60; %deg/s
 motor_l = motor(mylego,'B')
 motor_r = motor(mylego,'C')
 % Velocidad a 20% de potencia
-motor_l.Speed = 20
-motor_r.Speed = 20
+motor_l.Speed = 35
+motor_r.Speed = 35
 %Encoders en cero
 resetRotation(motor_l)
 resetRotation(motor_r)
@@ -113,7 +113,8 @@ clear mylego motor_l motor_r
 
 promedio_velocidad_l = mean(vel_l);
 promedio_velocidad_r = mean(vel_r);
-vel_esperada = vel_max_deg_s * 0.20;
+%% 
+vel_esperada = vel_max_deg_s * 0.35;
 fprintf('Velocidad angular promedio por motor: %.2f deg/s\n', vel_esperada);
 fprintf('Velocidad angular promedio motor izquierdo: %.2f deg/s\n', promedio_velocidad_l);
 fprintf('Velocidad angular promedio motor derecho: %.2f deg/s\n', promedio_velocidad_r);
