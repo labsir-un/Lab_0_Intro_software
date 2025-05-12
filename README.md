@@ -73,14 +73,14 @@ Por último, el aprendizaje basado en software fomenta el pensamiento crítico y
 ## 4. 🔧🛠️🦾 Herramientas principales de trabajo
 
 
-### 4.1. [🐧🖥️🦭 Ubuntu](./Secciones/Ubuntu.md)
+### 4.1. [🐧🖥️🦭 Ubuntu](./Secciones/Ubuntu/README.md)
 
-### 4.2. [📊 MATLAB](./Secciones/MATLAB.md)
+### 4.2. [📊 MATLAB](./Secciones/Matlab/README.md)
 
-### 4.3. [🤖 Toolbox de Peter Corke](./Secciones/ToolboxRTV.md)
+### 4.3. [🤖 Toolbox de Peter Corke](./Secciones/Toolbox_RCV/README.md)
 
-### 4.4. [🎮 CoppeliaSim](./Secciones/CoppeliaSim.md)
+### 4.4. [🎮 CoppeliaSim](./Secciones/CoppeliaSim/README.md)
 
-### 4.5. [🦾 ROS](./Secciones/ROS.md)
+### 4.5. [🦾 ROS](./Secciones/ROS/README.md)
 
-## 5. [⚙️🧰 Algunas herramientas utiles](./Secciones/Herramientas.md)
+## 5. [⚙️🧰 Algunas herramientas utiles](./Secciones/Herramientas/README.md)
