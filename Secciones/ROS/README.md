@@ -11,5 +11,6 @@ Para conocer el proceso de intalación dirigase a:
 ## 📂 Recursos
 
 [📚🌐🤖 Introducción a ROS](./Recursos/Introduccion.md)  
-[🌐🐢🤖 Uso del robot Kobuki mediante ROS](./Recursos/Kuboki.md)
-[🛠️⚡🤖 Uso de arduino con ROS](./Recursos/Arduino.md)
+[🌐🐢🤖 Uso del robot Kobuki mediante ROS](./Recursos/Kuboki.md)  
+[🛠️⚡🤖 Uso de arduino con ROS](./Recursos/Arduino.md)  
+[👀🌐🤖 Uso de sensores con ROS](./Recursos/Sensores.md)

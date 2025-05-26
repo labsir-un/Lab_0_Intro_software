@@ -84,7 +84,6 @@ En resumen, ROS ofrece una infraestructura robusta y estandarizada para el manej
 ### 1.2. 🖥️💾 Software
 
   - Ubuntu 20.04.
-  - Arduino IDE.
   - ROS Noetic.
 
 
