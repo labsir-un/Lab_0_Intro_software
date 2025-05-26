@@ -32,6 +32,9 @@
   - [1.1. 🔭🛠️ Equipos](#11-️-equipos)
   - [1.2. 🖥️💾 Software](#12-️-software)
 - [4. 🔧➡️🚀 Procedimiento](#4-️-procedimiento)
+  - [📹🎢🎭 Camára web](#-camára-web)
+  - [🔦👀🌍📡 Sensor RPLidar](#-sensor-rplidar)
+  - [🔦👀🌐🔭 Sensor Hokuyo](#-sensor-hokuyo)
 
 </details>
 
@@ -74,8 +77,8 @@ En resumen, ROS ofrece una infraestructura robusta y estandarizada para el manej
 ### 1.1. 🔭🛠️ Equipos
 
   - Computador.
-  - RPLidar A1.
-  - Camara web.
+  - RPLidar.
+  - Cámara web.
   - Hokuyo URG-04LX-UG01.
 
 ### 1.2. 🖥️💾 Software
@@ -86,3 +89,103 @@ En resumen, ROS ofrece una infraestructura robusta y estandarizada para el manej
 
 
 ## 4. 🔧➡️🚀 Procedimiento
+
+
+### 📹🎢🎭 Camára web
+
+El uso de una cámara web ofrece una solución accesible y versátil para tareas de percepción visual. Gracias a su bajo costo, facilidad de integración y compatibilidad con bibliotecas como OpenCV, una cámara web permite capturar imágenes en tiempo real que pueden emplearse en aplicaciones como detección de objetos, seguimiento de movimiento y navegación autónoma. Además, su uso en conjunto con ROS facilita el procesamiento distribuido de imágenes, la publicación de datos en tópicos y la integración con otros sensores y nodos del sistema robótico, lo que contribuye al desarrollo de soluciones más completas y eficientes.
+
+1. Instale el paquete para el uso de la cámara web con ROS y el visualizador de rqt.
+
+```sh
+sudo apt install ros-noetic-usb-cam
+sudo apt install ros-noetic-rqt-image-view
+```
+
+2. Corra el nodo de la cámara web.
+
+```sh
+rosrun usb_cam usb_cam_node
+```
+
+3. Use el comando de `rostopic list` para ver que los topicos disponibles.
+
+4. Poniendo un `sniffer` en el topico `/usb_cam/image_raw` podra ver la matriz con los datos de las imagenes que se estan sensando.
+
+```sh
+ rostopic echo /usb_cam/image_raw
+```
+
+5. Visualice la imagen que se esta sensando con rqt.
+
+```sh
+rqt_image_view
+```
+
+6. Instale las librerias y paquete de opencv.
+
+```sh
+sudo apt install ros-noetic-cv-bridge python3-opencv
+```
+
+7. Agregue a su workspace el script [image_detector.py](./scripts/image_detector.py) con el cual podra ver un ejemplo de detección de imagenes sencillo usando OpenCV.
+
+### 🔦👀🌍📡 Sensor RPLidar
+
+
+1. En la carpeta `src` de su workspace clone el paquete del RPLidar.
+
+```sh
+~/catkin_ws/src/
+git clone https://github.com/robopeak/rplidar_ros.git
+```
+
+2. Compile el workspace y cargue las variables de entorno.
+
+```sh
+~/catkin_ws/
+catkin_make
+source devel/setup.bash 
+```
+
+3. Verifique en que puerto esta conectado el sensor y deje los permisos adecuados de escritura.
+
+```sh
+ls -l /dev |grep ttyUSB
+#En esete caso el puerto es el /dev/ttyUSB0
+sudo chmod 666 /dev/ttyUSB0
+```
+
+4. Visualice los datos obtenidos por el sensor usando el .launch para rviz.
+
+```sh
+roslaunch rplidar_ros view_rplidar.launch
+```
+
+5. Si desea visualizar los datos en la terminal en dupla ángulo y distancia puede usar el .launch de solo el sensor y conectarse a sus datos.
+
+```sh
+roslaunch rplidar_ros rplidar.launch
+#Lance en una segunda terminal el nodo
+rosrun rplidar_ros rplidarNodeClient
+```
+
+### 🔦👀🌐🔭 Sensor Hokuyo
+
+1. Intale el paquete para el sensor.
+
+```sh
+sudo apt-get install ros-noetic-urg-node
+```
+
+2. Corra el nodo para el sensor.
+
+```sh
+rosrun urg_node urg_node
+```
+
+3. Ejecute rviz, en la escena configure en `Global Options el Fixed Frame a laser` y añada un `LaserScan` cuyo topico sea `/scan`. 
+
+```sh
+rosrun rviz rviz
+```
