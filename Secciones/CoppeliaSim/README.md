@@ -17,3 +17,5 @@ Para conocer el proceso de instalación dirigase a:
 - [🤖🔄📈 Guía CoppeliaSim - Intercambio de información entre Matlab y CoppeliaSim](./Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_02.md)
 - [📊➡️📍 Guía CoppeliaSim - Modificación de posición en CoppeliaSim desde MATLAB](./Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_03.md)
 </details>
+
+🗺️🧭🛣️ [Escena de laberinto y ocupación de celdas binarias](./Recursos/Mapas_navegacion/)
