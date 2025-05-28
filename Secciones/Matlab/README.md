@@ -67,3 +67,11 @@ Para conocer el proceso de instalación dirigase a:
 
 - [📍➡️📍 Simulacion de movimiento](./scripts/Simulacion_Robot_Moviles/sim1.m)
 </details>
+
+<details>
+  <summary>🗺️🏁🛤️🤖 Mapas de ocupación binarios</summary>
+
+  - [✍🏼🗺️🏁 Cración de mapas y ocupación de celdas](./scripts/Mapas/demo_maps.mlx)
+
+  - [🛤️✍🏼🗺️🏁 Creación de mapas apartir de imagenes](./scripts/Mapas/mapa2.mlx)
+</details>
