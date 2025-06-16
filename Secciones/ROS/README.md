@@ -6,9 +6,11 @@ El Robot Operating System (ROS) ha revolucionado el mundo de la robótica al pro
 
 Para conocer el proceso de intalación dirigase a:
 
-[🚀🛠️🦾 Guia de instalación ROS](./Archivos/ROS/Instalacion.md)
+[🚀🛠️🦾 Guia de instalación ROS](./Instalacion.md)
 
 ## 📂 Recursos
 
-[📚🌐🤖 Introducción a ROS](./Archivos/ROS/Recursos/Introduccion.md)  
-[🌐🐢🤖 Uso del robot Kobuki mediante ROS](./Archivos/ROS/Recursos/Kuboki.md)
+[📚🌐🤖 Introducción a ROS](./Recursos/Introduccion.md)  
+[🌐🐢🤖 Uso del robot Kobuki mediante ROS](./Recursos/Kuboki.md)  
+[🛠️⚡🤖 Uso de arduino con ROS](./Recursos/Arduino.md)  
+[👀🌐🤖 Uso de sensores con ROS](./Recursos/Sensores.md)

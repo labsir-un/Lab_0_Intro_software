@@ -8,30 +8,30 @@ En el mundo de la robótica, MATLAB permite diseñar, simular y probar algoritmo
 
 Para conocer el proceso de instalación dirigase a:
 
-[🚀🛠️📊 Guia de instalación MATLAB](./../Archivos/Matlab/Instalacion.md)
+[🚀🛠️📊 Guia de instalación MATLAB](./Instalacion.md)
 
 ## 📂 Recursos
 
 <details>
   <summary>🛤️🚗🤖📡 Simulacion de robots moviles</summary>
 
-- [✍🏼🤖 Dibujar robot circular 2D](./../Archivos/Matlab/scripts/Simulacion_Robot_Moviles/dibrob.m)
+- [✍🏼🤖 Dibujar robot circular 2D](./scripts/Simulacion_Robot_Moviles/dibrob.m)
 
-- [✍🏼🤖🔴 Dibujar robot circular 2D dado un radio](./../Archivos/Matlab/scripts/Simulacion_Robot_Moviles/dibrobr.m)
+- [✍🏼🤖🔴 Dibujar robot circular 2D dado un radio](./scripts/Simulacion_Robot_Moviles/dibrobr.m)
 
-- [✍🏼🚗📍🧭Dibujar vehículos en posiciones y orientaciones](./../Archivos/Matlab/scripts/Simulacion_Robot_Moviles/dibveh1.m)
+- [✍🏼🚗📍🧭Dibujar vehículos en posiciones y orientaciones](./scripts/Simulacion_Robot_Moviles/dibveh1.m)
 
 <div align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmRnaW44ZGVtM3VoNTB2eHBpa3V1eHRoMmxqM3M1MDg0NTh3M2M5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SJojxpkk5PWYSGfIdi/giphy.gif" alt="dibrob" width="400px">
 </div>
 
-- [✍🏼🚗🚙📍🧭 Dibujar vehículos con diferentes radios en posiciones y orientaciones dada](./../Archivos/Matlab/scripts/Simulacion_Robot_Moviles/dibveh2.m)
+- [✍🏼🚗🚙📍🧭 Dibujar vehículos con diferentes radios en posiciones y orientaciones dada](./scripts/Simulacion_Robot_Moviles/dibveh2.m)
 
 <div align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjR2dmE2anJucG5kbmNicDRoYm1zMXhlaXhiNXlzdDY5ZDJyMmdzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/COBJzcVXEEdc4ZPoTv/giphy.gif" alt="dibrobr" width="400px">
 </div>
 
-- [∫📈🧮 Metodos de integración](./../Archivos/Matlab/scripts/Simulacion_Robot_Moviles/intgr.m)
+- [∫📈🧮 Metodos de integración](./scripts/Simulacion_Robot_Moviles/intgr.m)
 - [🏎️💨 Movimiento cinemático de un móvil en un plano](./../Archivos/Matlab/scripts/Simulacion_Robot_Moviles/kinetbas.m)
 
 <div align="center" style="display: flex; gap: 20px; justify-content: center;">
@@ -53,7 +53,7 @@ Para conocer el proceso de instalación dirigase a:
 </div>
 
 
-- [🏎️💨📈 Movimiento cinemático de un móvil perfiles de velocidad](./../Archivos/Matlab/scripts/Simulacion_Robot_Moviles/kinetbas2.m)
+- [🏎️💨📈 Movimiento cinemático de un móvil perfiles de velocidad](./scripts/Simulacion_Robot_Moviles/kinetbas2.m)
 
 
 <div align="center" style="display: flex; gap: 20px; justify-content: center;">
@@ -65,5 +65,13 @@ Para conocer el proceso de instalación dirigase a:
   </a>
 </div>
 
-- [📍➡️📍 Simulacion de movimiento](./../Archivos/Matlab/scripts/Simulacion_Robot_Moviles/sim1.m)
+- [📍➡️📍 Simulacion de movimiento](./scripts/Simulacion_Robot_Moviles/sim1.m)
+</details>
+
+<details>
+  <summary>🗺️🏁🛤️🤖 Mapas de ocupación binarios</summary>
+
+  - [✍🏼🗺️🏁 Cración de mapas y ocupación de celdas](./scripts/Mapas/demo_maps.mlx)
+
+  - [🛤️✍🏼🗺️🏁 Creación de mapas apartir de imagenes](./scripts/Mapas/mapa2.mlx)
 </details>

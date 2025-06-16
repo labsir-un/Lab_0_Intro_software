@@ -6,14 +6,16 @@ CoppeliaSim es una herramienta fundamental en la simulación de robots móviles,
 
 Para conocer el proceso de instalación dirigase a:
 
-[🚀🛠️🎮 Guia de instalación CoppeliaSim](./../Archivos/CoppeliaSim/Instalacion.md)
+[🚀🛠️🎮 Guia de instalación CoppeliaSim](./Instalacion.md)
 
 ## 📂 Recursos  
 
 <details>
   <summary>🔗🤖📡 Uso de CoppeliaSim con Matlab</summary>
 
-- [📡🔄📊 Guia CoppeliaSim - Conexión Matlab y CoppeliaSim](./../Archivos/CoppeliaSim/Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_01.md)
-- [🤖🔄📈 Guía CoppeliaSim - Intercambio de información entre Matlab y CoppeliaSim](./../Archivos/CoppeliaSim/Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_02.md)
-- [📊➡️📍 Guía CoppeliaSim - Modificación de posición en CoppeliaSim desde MATLAB](./../Archivos/CoppeliaSim/Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_03.md)
+- [📡🔄📊 Guia CoppeliaSim - Conexión Matlab y CoppeliaSim](./Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_01.md)
+- [🤖🔄📈 Guía CoppeliaSim - Intercambio de información entre Matlab y CoppeliaSim](./Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_02.md)
+- [📊➡️📍 Guía CoppeliaSim - Modificación de posición en CoppeliaSim desde MATLAB](./Recursos/Uso_con_Matlab/Guias/Guia_CoppeliaSim_Matlab_03.md)
 </details>
+
+🗺️🧭🛣️ [Escena de laberinto y ocupación de celdas binarias](./Recursos/Mapas_navegacion/)

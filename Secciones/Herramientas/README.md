@@ -6,7 +6,7 @@ La terminal es una herramienta esencial, ya que permite interactuar con el siste
 
 Por ello, al comenzar a utilizar Ubuntu, es fundamental aprender a manejar la terminal, ya que facilita el uso y la administración del sistema operativo.
 
-Si quieres conocer más sobre [📝💻 el uso de la terminal](./Archivos/Herramientas/Terminal/Recomendaciones.md) donde se muestran varios de de los comandos con su funcionalidad y se habla a más profundidad sobre la terminal.
+Si quieres conocer más sobre [📝💻 el uso de la terminal](./Terminal/Recomendaciones.md) donde se muestran varios de de los comandos con su funcionalidad y se habla a más profundidad sobre la terminal.
 
 ## 🗂️🐙  Git y Github
 
@@ -17,7 +17,7 @@ Por otro lado, GitHub es una plataforma basada en la nube que utiliza Git para a
 >[!TIP]
 >Puedes tener tu cuenta de github con el correo de la universidad y te da los beneficios de "GitHub Education". [Saber más](https://docs.github.com/es/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student)
 
-Si quieres conocer más sobre [✍🏼🗂️🐙 el uso de git y github](./Archivos/Herramientas/Git/Recomendaciones.md) donde se muestran varios de de los comandos con su funcionalidad y se habla a más profundidad sobre el uso de estas herramientas.
+Si quieres conocer más sobre [✍🏼🗂️🐙 el uso de git y github](./Git/Recomendaciones.md) donde se muestran varios de de los comandos con su funcionalidad y se habla a más profundidad sobre el uso de estas herramientas.
 
 ### 📂 Recursos
 
@@ -109,7 +109,7 @@ Las extensiones facilitan el uso de lenguajes y el desarrollo de código. Aca al
 
 Markdown es un lenguaje de marcado ligero que permite dar formato a textos de manera sencilla y rápida, sin necesidad de usar editores complejos. Se utiliza ampliamente en documentación, blogs, README de proyectos en GitHub y plataformas de desarrollo. Su sintaxis intuitiva permite estructurar contenido con encabezados, listas, enlaces, imágenes y tablas de manera eficiente. Además, es compatible con múltiples herramientas y convertidores que lo transforman en HTML u otros formatos, lo que lo convierte en una opción ideal para desarrolladores, escritores y creadores de contenido.
 
-Si quieres conocer más sobre [✍️📄💻📝 El uso de markdown](./Archivos/Herramientas/Markdown/Recomendaciones.md) donde se muestran varias de las fncionalidades de este lenguaje y como usarlo junto a github para documentar proyectos y mejorar la presentación de tu perfil en github.
+Si quieres conocer más sobre [✍️📄💻📝 El uso de markdown](./Markdown/Recomendaciones.md) donde se muestran varias de las fncionalidades de este lenguaje y como usarlo junto a github para documentar proyectos y mejorar la presentación de tu perfil en github.
 
 ### 📂 Recursos
 
